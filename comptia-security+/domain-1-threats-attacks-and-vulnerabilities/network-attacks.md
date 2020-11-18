@@ -1,21 +1,21 @@
 # Network Attacks
 
-**Hijacking and Related Attacks**
+**Hija@cking and Related Attacks**
 
 * Clickjacking - tricking a web user into clicking a spoofed button or graphic.
 * Session Hijacking \(Cookie Hijacking\) - exploiting a valid computer session, or session key, to gain unauthorized access to information or services.
 * URL Hijacking / Typo Squatting - the act of registering domains that are similar to those for a known entity but based on a misspelling or typographical error.
 * MAC Spoofing - The MAC address is hard-coded onto a NIC number. Many drivers allow the MAC address to be changed. A technique for changing a factory-assigned MAC address of a network interface on a networked device.
 
-![](https://www.evernote.com/shard/s342/res/31ac0a56-cfbc-05ba-082c-ba459a022dd8)
+![](../../.gitbook/assets/image%20%2823%29.png)
 
 * **IP Spoofing** - A technique used to gain unauthorized access to machines, whereby an attacker illicitly impersonates another machine by manipulating IP packets. IP Spoofing involves modifying the packet header with a forged \(spoofed\) source IP address, a checksum, and the order value.
 
-![](https://www.evernote.com/shard/s342/res/554e8b41-a48e-b3a4-9194-99d4db46bb24)
+![](../../.gitbook/assets/image%20%2819%29.png)
 
 * **ARP Spoofing** - When an attacker sends fake ARP messages over a local area network. This results in the linking of an attacker's MAC address with the IP address of a legitimate computer or server on the network.
 
-![](https://www.evernote.com/shard/s342/res/21a2af15-7f20-9b44-d09a-61f4f4c1d911)
+![](../../.gitbook/assets/image%20%2821%29.png)
 
 * **Man-in-the-Middle Attack**
   * The attacker secretly relays and possibly alters the communication between two parties who believe they are directly communicating with each other.
