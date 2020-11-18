@@ -1,14 +1,12 @@
 # Social Engineering
 
-
-
-**Social Engineering**
+### **Social Engineering**
 
 * Definition:
   * The process by which intruders gain access to facilities, network, systems, data, and even employees by exploiting the generally trusting nature of people.
   * The use of deception to manipulate individuals into divulging confidential or personal information that may be used for fraudulent purposes.
 
-**Social Engineering Attack Types**
+### **Social Engineering Attack Types**
 
 * Online
   * Phishing: Sending emails pretending to be from a reputable company in order to convince individuals to reveal personal information.
@@ -23,13 +21,13 @@
   * Dumpster Diving:  The practice of foraging in garbage that has been put out on the street in dumpsters, garbage cans, et cetera, for discarded items that may still be valuable, useful, or used to commit fraud.
   * Shoulder Surfing: Watching someone "over their shoulder" when they enter sensitive data such as a password or credit card info.
 
-**Communications Spoofing**
+### **Communications Spoofing**
 
 * Hoax: Malicious actors ussuing false warnings to alarm users.
 * Swatting: Fraudulent calls to the police.
 * Watering Hole Attack: A security exploit in which the attacker seeks to compromise a specific group of end users by infecting websites that members of the group are known to visit.
 
-**Social Engineering Principles**
+### **Social Engineering Principles**
 
 * Reasons for Effectiveness:
   * Authority
@@ -41,7 +39,7 @@
   * Urgency
   * Reciprocity
 
-**Preventing Social Engineering**
+### **Preventing Social Engineering**
 
 * User education.
 * "Trust, but verify."

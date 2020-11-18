@@ -1,6 +1,6 @@
 # Application Cryptography Attacks
 
-**Application Attacks**
+### **Application Attacks**
 
 * Buffer Overflow:
   * When more data is written to a buffer than it can hold.
@@ -23,7 +23,7 @@
 * Cross-Site Request Forgery \(CSRF/XSRF\): An attack that forces an end user to execute unwanted actions on a web application. Also known as a 'session riding' or 'one-click' attack.
 * Privilege Escalation: The act of exploiting a bug, design flaw, or configuration oversight in an operating system or software application to gain elevated access to resources that are normally protected from an application or user.
 
-**Prevention & Response**
+### **Prevention & Response**
 
 * Good coding practices - See OWASP.
 * Filter and validate any user input.
@@ -31,7 +31,7 @@
 * Build security into the Software Development Life Cycle \(SDLC\).
 * Have an incident response plan in place.
 
-**Zero-Day \(0-Day\) Exploits**
+### **Zero-Day \(0-Day\) Exploits**
 
 * An attack that exploits a previously unknown security vulnerability.
 * It may take advantage of a security vulnerability on the same day that the vulnerability becomes generally known.
@@ -41,7 +41,7 @@
   * Patch & Update.
   * Keep AV up-to-date.
 
-**Impersonation / Masquerading / Replay Attacks**
+### **Impersonation / Masquerading / Replay Attacks**
 
 * The act of pretending to be someone or something to gain unauthorized access to a system.
 * Capturing network traffic via eavesdropping, then re-establishing a communications session by replaying captured traffic using spoofed authentication credentials.
@@ -51,13 +51,13 @@
   * Encryption
   * Sequenced Session Identification
 
-**Driver Manipulation**
+### **Driver Manipulation**
 
 * Driver: A program that controls a device such as printers, media, keyboards, etc. They are usually signed.
 * Shimming: Creating a library, or modifying an existing one, to bypass a driver and perform a function other than the one for which the API was created.
 * Refactoring: Set of techniques used to identify the flow and then modify the internal structure of code without changing the code's visible behavior.
 
-**Cryptographic Attacks**
+### **Cryptographic Attacks**
 
 * Birthday: An attack on cryptographic hash that looks for hash collisions - exploiting the 1-to-1 nature of hashing functions.
 * Known Plain Text/Cipher Text: An attacker attempts to derive a cryptographic key by using pairs of known plain text along with the corresponding cipher text.

@@ -1,9 +1,6 @@
 # Attacks
 
-**Christmas Tree Attack**   
-\[[https://youtu.be/bVrxL2AL4yQ](https://youtu.be/bVrxL2AL4yQ)\]  
-\[[https://medium.com/cryptogennepal/did-you-know-about-the-xmas-attack-c6daae776a0e](https://medium.com/cryptogennepal/did-you-know-about-the-xmas-attack-c6daae776a0e)\]  
-\[[https://capec.mitre.org/data/definitions/303.html](https://capec.mitre.org/data/definitions/303.html)\]
+### **Christmas Tree Attack**  \[[https://youtu.be/bVrxL2AL4yQ](https://youtu.be/bVrxL2AL4yQ)\] \[[https://medium.com/cryptogennepal/did-you-know-about-the-xmas-attack-c6daae776a0e](https://medium.com/cryptogennepal/did-you-know-about-the-xmas-attack-c6daae776a0e)\] \[[https://capec.mitre.org/data/definitions/303.html](https://capec.mitre.org/data/definitions/303.html)\]
 
 * An attack designed to send a specifically crafted TCP packet to a device on the network. 
 * This crafting of the packet is one that turns on a bunch of flags. 
@@ -16,8 +13,7 @@
 * Used as a reconnaissance technique to grab information about various operating system.
 * It looks for open ports.
 
-**Initialization Vector Attacks**   
-\[[https://www.professormesser.com/security-plus/sy0-401/wireless-iv-attacks/](https://www.professormesser.com/security-plus/sy0-401/wireless-iv-attacks/)\]
+### **Initialization Vector Attacks**  \[[https://www.professormesser.com/security-plus/sy0-401/wireless-iv-attacks/](https://www.professormesser.com/security-plus/sy0-401/wireless-iv-attacks/)\]
 
 * An attack on wireless networks. 
 * It modifies the IV of an encrypted wireless packet during transmission. 
@@ -25,19 +21,21 @@
 * This key stream can be used to decrypt all other packets that use the same IV. 
 * Since there is only a small set of possible initialization vectors, the attacker can eventually build a decryption table to decrypt every packet sent over that wireless connection. 
 
-**Data Exfiltration** - the unauthorized transfer of data from a computer or device. 
+### **Data Exfiltration** 
 
-**Cross-Site Request Forgery \(XSRF/CSRF\) - AKA** [**{Session Riding}**](https://en.wikipedia.org/wiki/Cross-site_request_forgery)\*\*\*\*
+* the unauthorized transfer of data from a computer or device. 
+
+### **Cross-Site Request Forgery \(XSRF/CSRF\) - AKA** [**{Session Riding}**](https://en.wikipedia.org/wiki/Cross-site_request_forgery)\*\*\*\*
 
 * This application issue involves unauthorized commands coming from a trusted user to a user or website. 
 * Generally involves social networking. 
 
-**Data Diddling** - ****[{Source}](https://en.wikipedia.org/wiki/Data_diddling)
+### **Data Diddling** - ****[{Source}](https://en.wikipedia.org/wiki/Data_diddling)
 
 * An attack that changes data. 
 * Authorized users usually perpetuate this attack for financial gain. 
 
-**Password Attacks**
+### **Password Attacks**
 
 * Sniffing
 * Social Engineering
@@ -74,18 +72,22 @@
     * Faster than dictionary attacks.
     * Less machine memory needed.
 
-**Debugging Hooks** aka **Maintenance Hooks** [{source}](https://itlaw.wikia.org/wiki/Maintenance_hook)
+### **Debugging Hooks** aka **Maintenance Hooks** [{source}](https://itlaw.wikia.org/wiki/Maintenance_hook)
 
 * Software code that is intentionally embedded in the software during its development process to allow the developer to bypass the regular access and authentication mechanisms. 
 * These hooks can pose a threat to the security of the software and can be exploited if any maintenance hook is not removed before the software goes into production. 
 
-**Pseudo-Flaw** [{source}](https://itlaw.wikia.org/wiki/Pseudo-flaw) - A vulnerability code embedded intentionally in the software to trap intruders.
+### **Pseudo-Flaw** [{source}](https://itlaw.wikia.org/wiki/Pseudo-flaw) 
 
-**Birthday Attack**
+*  A vulnerability code embedded intentionally in the software to trap intruders.
+
+### **Birthday Attack**
 
 * Named after the mathematical probability that two people in the same network have the same birthday. 
 * Can be used in communication abuse between two or more parties.
 * It depends on a fixed degree of permutations \(pigeonholes\) and the higher likelihood of collisions found between random attack attempts.
 
-**Phreakers** - ****Attack VoIP and PBX equipment used for telephone lines. 
+### **Phreakers** 
+
+*  ****Attack VoIP and PBX equipment used for telephone lines. 
 

@@ -1,6 +1,6 @@
 # Network Attacks
 
-**Hija@cking and Related Attacks**
+### **Hijacking and Related Attacks**
 
 * Clickjacking - tricking a web user into clicking a spoofed button or graphic.
 * Session Hijacking \(Cookie Hijacking\) - exploiting a valid computer session, or session key, to gain unauthorized access to information or services.
