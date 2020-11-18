@@ -1,6 +1,6 @@
 # Secure Systems Design
 
-**Hardware / Firmware Security**
+### **Hardware / Firmware Security**
 
 * FDE - Full Disk Encryption
   * Bitlocker
@@ -27,7 +27,7 @@
   * A security process that has to begin with some unchangeable hardware identity often stored in a TPM.
 * Supply Chain - Confirming the origin of hardware is secure.
 
-**Operating System Types**
+### **Operating System Types**
 
 * Network
 * Server
@@ -38,7 +38,7 @@
 * Kiosk - Public Computer
 * Mobile OS
 
-**Operating System Security**
+### **Operating System Security**
 
 * Trusted Operating System/Baseline
 * Secure Configurations
@@ -53,7 +53,7 @@
   * Updates - Provides more comprehensive improvements for features, additional security, or adds software enhancements and compatibility.
   * Upgrades - New version of the software.
 
-**Operating System Hardening**
+### **Operating System Hardening**
 
 * Secure Configurations
 * Trusted Operating Systems
@@ -78,7 +78,7 @@
     * 143 - IMAP
     * 992 - IMAP SSL
 
-**Peripherals**
+### **Peripherals**
 
 * Wireless Keyboards & Mice
 * Displays
@@ -88,7 +88,7 @@
 * Mobile Devices/Smartphones
 * Digital Cameras
 
-**Demilitarized Zone \(DMZ\)**
+### **Demilitarized Zone \(DMZ\)**
 
 * You should implement every computer on the DMZ as a _bastion_ host because any system on the DMZ can be compromised. 
 * _Bastion -_ A special-purpose computer on a network specifically designed and configured to withstand attacks. 

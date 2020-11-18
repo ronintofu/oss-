@@ -1,14 +1,13 @@
 # Identity & Access Management Concepts
 
-**What Is Access Control?**
+### **What Is Access Control?**
 
 * Granting or denying approval to use specific resources.
 * Information system's mechanism to allow or restrict access to data or devices.
 * Four standard models.
 * Specific practices used to enforce access control.
 
-**IAM - Identity & Access Management**  
-**Identity & Authentication**
+### **IAM - Identity & Access Management** **Identity & Authentication**
 
 * Identification
   * First Step
@@ -28,7 +27,7 @@
 
 ![](../../.gitbook/assets/image%20%2815%29.png)
 
-**Access Control Terminology**
+### **Access Control Terminology**
 
 * _Object_
   * Specified resource.
@@ -44,7 +43,7 @@
 
 ![](../../.gitbook/assets/image.png)
 
-**Authentication Factors**
+### **Authentication Factors**
 
 * Something you know, such as a password or PIN.
 * Something you have, such as a smartcard, token, or identification device.
@@ -59,7 +58,7 @@
   * Factors should not be in the same category.
 * Mutual Authentication - each party validates the other's identity.
 
-**Biometrics**
+### **Biometrics**
 
 * Type III - Something you are.
 * Metrics related to human characteristics or body measurements.
@@ -71,7 +70,7 @@
     * _Retina Scan_ - examines the unique pattern of blood vessels at the back of an individual's eye via a beam projected into the eye to capture the pattern.
     * _Iris Scan_ - uses mathematical pattern-recognition techniques on photos taken of an individual's eye. 
 
-**Biometric Errors**
+### **Biometric Errors**
 
 * False Acceptance Rate \(FAR\)
   * When the system accepts an intruder who should be rejected.
@@ -81,25 +80,25 @@
   * Metric for comparing biometric systems.
   * The point where FAR and FRR are equal.
 
-**Federation / Federated Identity**
+### **Federation / Federated Identity**
 
 * The means of linking a person's electronic identity and attributes, sorted across multiple distinct identity management systems.
 * Means of linking a user's ID with their privileges in a manner that can be used across business boundaries.
 * Allows a user to have a single ID that they can use across different businesses.
 * Examples: Google, FB, Microsoft
 
-**Single Sign-On \(SSO\)**
+### **Single Sign-On \(SSO\)**
 
 * Allows a user to authenticate one time and then access resources in the environment without needing to re-authenticate.
 * Different from password synchronization.
 * Vulnerability - if an attacker uncovers a user's credentials, they will have access to all that user's resources.
 * May also be a single point of failure.
 
-**Transitive Access / Trust**
+### **Transitive Access / Trust**
 
 ![](https://www.evernote.com/shard/s342/res/d5724b39-a4f5-d3aa-46a5-3a28e6ec0ddd)
 
-**Authentication Credentials**
+### **Authentication Credentials**
 
 * What you know.
   * User logging into a system.

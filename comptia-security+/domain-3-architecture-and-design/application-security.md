@@ -1,6 +1,6 @@
 # Application Security
 
-**Software Development Life-Cycle SDLC Models**
+### **Software Development Life-Cycle SDLC Models**
 
 * Waterfall
   * Steps:
@@ -23,7 +23,7 @@
     * Lean Software Development
     * XP \(Extreme Programming\)
 
-**Secure DevOps**
+### **Secure DevOps**
 
 * Also called DevSecOps or Rugged DevOps
 * Security integrated into all of your dev ops, which includes database design, programming, and infrastructure.
@@ -39,14 +39,14 @@
   * Automating this process through scripts can ensure that there is more control and less opportunity for error when deploying servers, as compared with manual configuration. 
   * The foundation for secure DevOps. 
 
-**Compiled vs Runtime Code**
+### **Compiled vs Runtime Code**
 
 * Method for creating executable code.
 * Compiled code uses a compiler program such as C or C++
 * Runtime uses interpreters such as Java or .NET
   * Generally faster but less secure.
 
-**Change Management / Version Control**
+### **Change Management / Version Control**
 
 * These go hand-in-hand.
 * Control and manage software changes - needed for quality and security.
@@ -58,14 +58,14 @@
   * Branching and merging capabilities.
   * Traceability.
 
-**Provisioning and Deprovisioning**
+### **Provisioning and Deprovisioning**
 
 * Provisioning - The creation or update of a resource.
 * Deprovisioning - The removal of a resource.
 * Part of the SLDC
 * Generally automated where software packages are made available to users through a self-service portal.
 
-**Secure Coding Techniques**
+### **Secure Coding Techniques**
 
 * Authentication
   * Hard-coding credentials into code.
@@ -108,7 +108,7 @@
   * Client-Side Validation - Entered data is validated via a script on the user's browser before the form is sent to the server.
   * Server-Side Validation - Occurs on the back-end server housing the application code. Protects against malicious attempts by the user to bypass validation.
 
-**Java** 
+### **Java** 
 
 * Unsigned Java applets in Java Development Kit 1.1 use sandboxes to enforce security. 
 

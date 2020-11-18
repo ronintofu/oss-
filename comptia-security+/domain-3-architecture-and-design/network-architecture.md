@@ -1,6 +1,6 @@
 # Network Architecture
 
-**Security Zones / Topologies**
+### **Security Zones / Topologies**
 
 * Each zone on a network is separated based on organizational role or level of security.
 * For example:
@@ -28,7 +28,7 @@
     * MAC filtering - restricting access based on the device's NIC address \(MAC\).
   * Guest
 
-**Security Device Placement**
+### **Security Device Placement**
 
 * Where should security devices be on a corporate network?
   * Firewalls / UTM \(border\)
@@ -43,7 +43,7 @@
       * [https://whatis.techtarget.com/definition/correlation-engine\#:~:text=A%20correlation%20engine%20is%20a,when%20there%20is%20a%20problem.](https://whatis.techtarget.com/definition/correlation-engine#:~:text=A%20correlation%20engine%20is%20a,when%20there%20is%20a%20problem.)
   * DDoS Mitigation \(Border Router\)
 
-**Firewalls, Proxies, IDS/IPS, UTM**
+### **Firewalls, Proxies, IDS/IPS, UTM**
 
 * Firewall Functions:
   * Packet Filter
@@ -59,7 +59,7 @@
 
 ![](../../.gitbook/assets/image%20%2810%29.png)
 
-**Segregation, Segmentation, & Isolation**
+### **Segregation, Segmentation, & Isolation**
 
 * Dividing a network into zones based on business or security needs.
 * Example: Accounting on a different network segment from manufacturing.
@@ -72,7 +72,7 @@
 * Air Gaps
   * Physical separation.
 
-**VPN / Tunneling**
+### **VPN / Tunneling**
 
 * A private network connection through an unsecured, public network.
 * Use to connect LANs
@@ -82,7 +82,7 @@
   * Remote Access - Connect users or devices to a corporate network.
   * Remote Access Server \(RAS\)
 
-**SDN - Software Defined Network**
+### **SDN - Software Defined Network**
 
 * The entire network is virtualized.
 * Allows for easier network segmentation.
@@ -94,7 +94,7 @@
   * Programmatically Configured
   * Open Standards-Based and Vender-Neutral
 
-**Honeypots / Honeynets**
+### **Honeypots / Honeynets**
 
 * Use:
   * Systems or networks exposed to capture malicious activity.
@@ -103,7 +103,7 @@
 * Separated from any business network. 
 * [http://www.honeyd.org](http://www.honeyd.org)/
 
-**Fibre Channel** - [{source}](https://www.geeksforgeeks.org/fundamentals-of-fibre-channel/)
+### **Fibre Channel** - [{source}](https://www.geeksforgeeks.org/fundamentals-of-fibre-channel/)
 
 * A high-speed network technology used to connect server to data storage area network. 
 * It handles high performance of disk storage for apps on many corporate networks. 

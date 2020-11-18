@@ -1,6 +1,6 @@
 # Identity & Access Management Models
 
-**Access Control Models**
+### **Access Control Models**
 
 * _MAC - Mandatory Access Control_
   * Assigning labels to resources and accounts \(objects\).
@@ -55,7 +55,7 @@
 
 ![](../../.gitbook/assets/image%20%2814%29.png)
 
-**Best Practices for Access Control**
+### **Best Practices for Access Control**
 
 * Establishing best practices for limiting access.
   * Can help secure systems and data.
@@ -86,7 +86,7 @@
   * Limits fraud, because the perpetrator must be present daily to hide the fraudulent actions.
   * Audit of employee's activities usually scheduled during vacation for sensitive positions.
 
-**Access Control Lists \(cont. from** [**{Network Components}**](../untitled/network-components.md)**\)**
+### **Access Control Lists \(cont. from** [**{Network Components}**](../untitled/network-components.md)**\)**
 
 * Set of permissions attached to an object.
 * Specifies which subjects may access the object and what operations they can perform.
@@ -100,7 +100,7 @@
   * Flag that indicates type of ACE.
   * Set of flags that determine whether objects can inherit permissions.
 
-**Group Policies** 
+### **Group Policies** 
 
 * Microsoft Windows Feature
   * Provides centralized management and configuration of computers and remote users using Active Directory \(AD\).
@@ -110,7 +110,7 @@
   * Fewer options to configure than a Group Policy.
   * Used to configure settings for systems not part of AD.
 
-**Biometrics**
+### **Biometrics**
 
 * Fingerprint Scanner
 * Retinal Scanner
@@ -123,7 +123,7 @@
   * The biometric method that analyzes both the physical motions performed when a signature is signed and the specific features of a person's signature. 
   * It usually captures the speed of the signing, the pressure of th epen, and the way the pen is held. 
 
-**Tokens**
+### **Tokens**
 
 * Physical device used for access.
 * Software or hardware based.
@@ -133,7 +133,7 @@
 * Examples: Wireless Keycard, Key Fob, or Any Physical Device
 * Contains a digital certificate and/or static password token.
 
-**Physical Access Controls**
+### **Physical Access Controls**
 
 * Proximity Cards
   * Hold little info.
@@ -143,7 +143,7 @@
   * May include other info on a programmable chip such as biometrics or certs.
 * Both use embedded microchips.
 
-**Certificate-Based Authentication**
+### **Certificate-Based Authentication**
 
 * PIV/CAC/Smart Card
 * Personal Identity Verification Cards
@@ -157,14 +157,13 @@
   * Allows a company to reduce the exposure of sensitive systems to unmanaged devices on internal networks. 
   * Can be used on wired networks to segment traffic intended for the WAP. 
 
-**File System Security**  
-AKA "Flat Files"
+### **File System Security** AKA "Flat Files"
 
 * Leverage access controls, encryption, and RAID.
 * Microsoft NTFS allows file-level access control where FAT allows only share-level access.
 * Consider using encryption for sensitive directories/media.
 
-**Database Security**
+### **Database Security**
 
 * Store organizations most sensitive / critical data.
 * Leverage network security & access controls within the Database Management System \(DBMS\)
@@ -172,7 +171,7 @@ AKA "Flat Files"
 * Crypto key management.
 * _Data Control Language \(DCL\)_ - implements security through access control and granular restrictions. 
 
-**Database View** 
+### **Database View** 
 
 * Database security feature that provides granular access controls. 
 * Used to limit user and group access to certain information based on the user privileges and the need to know.

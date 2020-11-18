@@ -1,6 +1,6 @@
 # Security Technologies
 
-**Host Technologies - Firewalls**
+### **Host Technologies - Firewalls**
 
 * Firewalls
   * Windows: type 'wf.msc' at cmd.
@@ -12,7 +12,7 @@
   * Windows Event Viewer
   * Linux logging: /var/log
 
-**Host Technologies - HIDS/HIPS**
+### **Host Technologies - HIDS/HIPS**
 
 * Sensors on each host relay to a centralized management console.
   * Compiles data to identify distributed trends.
@@ -24,7 +24,7 @@
   * Matching traffic identified as an attack with the actual network traffic.
 * NIST SP 800-94 - Guide to Intrusion Detection and Prevention Systems \(IDPS\)
 
-**Antivirus & Anti-Malware**
+### **Antivirus & Anti-Malware**
 
 * Windows Defender
 * End-user pop-up warning.
@@ -43,7 +43,7 @@
   * Manual removal - hunting malware with SysInternals
   * Reimage the system.
 
-**File Integrity Checker**
+### **File Integrity Checker**
 
 * Computers a cryptographic hash for all selected files and creates a database of the hashes.
 * Hashes are periodically recalculated and compared to the hashes in the database, to check for modification.
@@ -51,7 +51,7 @@
 * For alerts, determined what changed and why.
 * Example: Tripwire
 
-**Application Whitelisting**
+### **Application Whitelisting**
 
 * Organization approves software apps. All others are not allowed.
 * Example: Windows AppLocker
@@ -60,7 +60,7 @@
   * Path, which identifies an application by its location.
   * File hash, which uses a system-computed cryptographic hash.
 
-**Data Loss Prevention \(DLP\)**
+### **Data Loss Prevention \(DLP\)**
 
 * Prevent sensitive info from physically or logically leaving corporate systems.
 * Designed to detect and prevent unauthorized use and transmission of confidential info.
@@ -69,7 +69,7 @@
 * System: Application white-listing.
 * Hardware: USB blocking.
 
-**Removable Media Control**
+### **Removable Media Control**
 
 * Detects or prevents the use of removable media.
 * Local or network.
@@ -79,7 +79,7 @@
 * Scan removable media on each use.
 * Encryption.
 
-**Patch Management**
+### **Patch Management**
 
 * Automate updates when possible.
 * Patching process:
@@ -90,12 +90,12 @@
 * Alerting on failed patches.
 * Patching all apps / systems.
 
-**Patch Management Services**
+### **Patch Management Services**
 
 * Microsoft System Center Configuration Manager \(SCCM\) formerly Systems Management Server \(SMS\)
 * Linux RPM \(Red Hat Package Manager\)
 
-**Data Execution Prevention \(DEP\)**
+### **Data Execution Prevention \(DEP\)**
 
 * Hardware or Software.
 * Prevents malware from executing in memory space that is reserved for operating system processes.

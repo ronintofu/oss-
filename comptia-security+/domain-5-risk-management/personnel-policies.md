@@ -1,6 +1,6 @@
 # Personnel Policies
 
-**Policies**
+### **Policies**
 
 * Policies form the foundation of any security program.
 * Policies define:
@@ -8,14 +8,14 @@
   * How users approach security.
   * How certain situations will be handled.
 
-**Policy Document Types**
+### **Policy Document Types**
 
 * Policies - General management rules.
 * Standards - Specific mandatory controls \(based on a given policy\).
 * Guidelines - Recommendation or good practices.
 * Procedures - Instructions on how to implement a policy or standard.
 
-**Policy Elements**
+### **Policy Elements**
 
 * Overview
 * Purpose
@@ -27,7 +27,7 @@
 * Compliance / Exceptions
 * Policy Statements
 
-**Common Policies**
+### **Common Policies**
 
 * Acceptable Use Policy \(AUP\)
 * Access Policy
@@ -46,12 +46,12 @@
 
 _Policies should be short._
 
-**Standard Operating Procedure \(SOP\)**
+### **Standard Operating Procedure \(SOP\)**
 
 * Standard set of instructions for workers to carry out routine operations.
 * Aim to achieve efficiency and consistent output.
 
-**Agreement Types**
+### **Agreement Types**
 
 * _Non-Disclosure Agreement \(NDA\)_
   * Protects against sensitive information disclosure.
@@ -65,7 +65,7 @@ _Policies should be short._
   * [https://csrc.nist.gov/publications/detail/sp/800-47/final](https://csrc.nist.gov/publications/detail/sp/800-47/final)
 * _Interconnection Security Agreement \(ISA\)_
 
-**Personnel Management**
+### **Personnel Management**
 
 * Mandatory Vacations
 * Job Rotation
@@ -74,7 +74,7 @@ _Policies should be short._
 * Role-based awareness training based on job responsibilities.
 * Continuing Education
 
-**Separation of Duties** 
+### **Separation of Duties** 
 
 * When user accounts are created by one employee and user permissions are configured by another employee. 
 * An admin who is responsible for creating user account should not have the authorization to configure the permissions associated with the account. 
@@ -86,7 +86,7 @@ _Policies should be short._
     * An individual can be either an initiator of the transaction or the authorizor of a transaction.
   * Dynamic: An individual can initiate as well as authorize transactions.
 
-**Change Management**
+### **Change Management**
 
 * Change management stipulates that multiple changes to a computer system should not be made at the same time. 
 * This makes tracking any problems that can occur much simpler. 

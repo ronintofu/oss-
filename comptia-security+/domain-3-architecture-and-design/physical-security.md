@@ -1,11 +1,11 @@
 # Physical Security
 
-**Primary Consideration**
+### **Primary Consideration**
 
 * There is nothing that should impede life safety goals.
 * Human life is always top priority.
 
-**Physical Security Concepts**
+### **Physical Security Concepts**
 
 * Protection
   * Locks
@@ -19,7 +19,7 @@
   * Cameras
   * Motion Detection
 
-**Lighting**
+### **Lighting**
 
 * Used for crime deterrence.
 * It is important to have the correct lightning when using various types of surveillance equipment.
@@ -30,14 +30,14 @@
 * Redundant or Backup Lighting - Should be available in case of power failures or emergencies.
 * Response Area Illumination - Takes place when an IDS detects suspicious activities and turns on the lights within the specified area.
 
-**Perimeter Security**
+### **Perimeter Security**
 
 * Fencing, gates, and cages.
 * Varying heights, gauge, and mesh provides security features.
 * Natural landscaping.
 * CPTED - Crime Prevention Through Environmental Design
 
-**Safes / Locking Cabinets**
+### **Safes / Locking Cabinets**
 
 * Safes
   * Control Access
@@ -50,7 +50,7 @@
   * Where are they stored?
   * Key Duplication
 
-**Locks**
+### **Locks**
 
 * Combination locks - rather than use a key, turn.
 * Cipher locks - electronic locks.
@@ -63,7 +63,7 @@
   * Medium - A little pick resistance.
   * High - Higher degree of pick resistance.
 
-**Physical Access Controls**
+### **Physical Access Controls**
 
 * Turnstiles
 * Mantrap
@@ -72,42 +72,42 @@
   * Manually operated or automatic.
   * Only room for one person.
 
-**Faraday Cage / Shielding**
+### **Faraday Cage / Shielding**
 
 * Shielding - The process of preventing electronic emissions from your computer systems from being used to gather intelligence and preventing outside electronic emissions from disrupting information-processing abilities.
 * Faraday Cage or Faraday Shield - An enclosure used to block electromagnetic fields. A Faraday shield may be formed by a continuous covering of conductive material or in the case of a Faraday cage, by a mesh of such materials.
 
-**Barricades / Bollards**
+### **Barricades / Bollards**
 
 * Bollards are small concrete pillars, sometimes containing lights or flowers.
 * They are used to stop people from driving through a wall, often put between a building and a parking lot.
 * They can be arranged to form a natural path for walking.
 
-**Personnel Access Controls**
+### **Personnel Access Controls**
 
 * There are different technologies to grant access to a building.
   * User Activated - A user does something such as swipe a card or use biometrics.
   * Proximity Devices / Transponders - A system recognizes the presence of an object. 'Electronic Access Control Tokens' are a generic term for proximity authentication systems.
 
-**Site Access Controls**
+### **Site Access Controls**
 
 * Key Cards
   * Centralized access control consists of card readers, central computer, and electronic door latches.
   * Pros: easy to use, provides an audit record, easy to change access permissions.
   * Cons: can be used by others if lost, people may 'tailgate'.
 
-**Biometric Access Controls**
+### **Biometric Access Controls**
 
 * Based upon a specific biometric measurement.
 * Fingerprint, Iris Scan, Retina Scan, Hand Scan, Voice, Facial Recognition, etc.
 * Greater confidence of claimed identity.
 
-**Detection**
+### **Detection**
 
 * Motion Detection - Location monitoring and alarms based on movement.
 * Infrared Detection - Detects changes in infrared radiation or thermal heat.
 
-**Environmental Controls**
+### **Environmental Controls**
 
 * HVAC - Heating, Ventilation, Air Conditioning
   * Redundancy
@@ -147,7 +147,7 @@
   * A formerly used, phased out method of fire suppression used for fires with electrical equipment. 
   * _NIST Technical Note 1622_
 
-**Video Surveillance / Cameras**
+### **Video Surveillance / Cameras**
 
 * Supplements security guards.
 * Work in conjunction with guards or other monitoring mechanisms.
@@ -159,7 +159,7 @@
   * Stairwells
   * Refuse Collection Areas
 
-**CCTV Considerations**
+### **CCTV Considerations**
 
 * Purpose - To detect, assess, and/or identify intruders.
 * CCTV Environment: Internal/External
@@ -167,7 +167,9 @@
 * Illumination: Lighting, natural or artificial.
 * Integration with other security controls.
 
-**Electrostatic IDS** - Also known as a 'proximity detector', this IDS uses a magnetic or electrostatic field to detect intrusions. 
+### **Electrostatic IDS** 
+
+_Also known as a 'proximity detector', this IDS uses a magnetic or electrostatic field to detect intrusions._ 
 
 * The Electrostatic IDS creates a balanced electrostatic field between itself and the object being monitored. 
 * If an intruder comes within a certain range of the monitored object, it causes capacitance change. 

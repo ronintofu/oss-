@@ -1,13 +1,13 @@
 # Access Protocols
 
-**Directories / Directory Service Protocols**
+### **Directories / Directory Service Protocols**
 
 * Repositories of an organization's network resources and users.
 * Most follow a hierarchical database format, based on the X.500 Standard.
 * A directory service manages the entries and data in the directory and enables access control and identity management.
 * Types: Microsoft Active Directory \(AD\) & LDAP
 
-**Lightweight Directory Access Protocol \(LDAP\)**
+### **Lightweight Directory Access Protocol \(LDAP\)**
 
 * A standardized directory access protocol.
 * Main purpose is to query the LDAP user database - pared-down X.500-based directories.
@@ -19,23 +19,25 @@
   * Similar to SQL injection attacks.
   * Occurs when user input is not properly filtered.
 
-**LDAP Data Interchange Format \(LDIF\)**
+### **LDAP Data Interchange Format \(LDIF\)**
 
 * Enables LDAP servers toe exchange directory information. 
 * Servers must be able to authenticate to the server using the correct format 
 * A standard plain text data interchange format for representing LDAP directory content and update requests. 
 * [{wiki}](https://en.wikipedia.org/wiki/LDAP_Data_Interchange_Format)
 
-**LDAP Security**
+### **LDAP Security**
 
 * LDAP is vulnerable to snooping.
 * Encrypt communications using SSL/TLS to secure LDAP transmissions.
 * Certificates can validate authentication requests.
 * LDAPv3 bind requests should use Simple Authentication and Security Layer \(SASL\)
 
-**Directory Information Tree** - a hierarchical structure that can be searched for directory information. This holds LDAP entries. 
+### **Directory Information Tree**
 
-**Kerberos**
+* A hierarchical structure that can be searched for directory information. This holds LDAP entries. 
+
+### **Kerberos**
 
 * A symmetric key authentication protocol.
 * Kerberos v5 uses mutual authentication between the requesting client and the supporting server through a Key Distribution Center \(KDC\)
@@ -45,14 +47,14 @@
 * Each time the user wishes to access some resource on the network, the user's computer presents the KDC with the TGT; the TGT then sends that user's computer to a service ticket, granting the user access to that service.
 * Works like using a driver's license to cash a check.
 
-**Kerberos Ticket**
+### **Kerberos Ticket**
 
 * Contains information linking it in the user.
 * User presents ticket to network for a service.
 * Difficult to copy.
 * Expires after a few hours or a day.
 
-**Kerberos Key Distribution Center**
+### **Kerberos Key Distribution Center**
 
 * Comprised of Three Components: 
   * Kerberos Database
@@ -63,7 +65,7 @@
     *  responsible for validating TGTs and granting _service tickets_.
       * Service tickets allow an authenticated principal to use the service provided by the application server, identified by the SPN \(Service Principle Name\). 
 
-**Kerberos Authentication Process**
+### **Kerberos Authentication Process**
 
 * Each time the user wishes to access some resource on the network, the user's computer present the KDC with the TGT.
 * The TGT then sends that user's computer a service ticket, granting the user access to that service.
@@ -72,7 +74,7 @@
 
 ![](../../.gitbook/assets/image%20%285%29.png)
 
-**Remote Authentication Dial-In User Service \(RADIUS\)**
+### **Remote Authentication Dial-In User Service \(RADIUS\)**
 
 * Developed in 1992. 
 * Became industry standard.
@@ -92,13 +94,15 @@
   * Increases security due to a single administered network point.
   * Easier to track usage for billing and keeping network statistics.
 
-**Diameter**
+### **Diameter**
 
 * Diameter was created to deal with VoIP and wireless services.
 * Addresses new technologies that RADIUS was not designed to handle.
 * Backwards compatible with RADIUS but not all RADIUS servers work with Diameter.
 
-![](https://www.evernote.com/shard/s342/res/be0f7213-9d57-d3d0-056c-cf97795e7bfc)**Terminal Access Controller Access Control System Plus \(TACACS+\)**
+![](https://www.evernote.com/shard/s342/res/be0f7213-9d57-d3d0-056c-cf97795e7bfc)
+
+### **Terminal Access Controller Access Control System Plus \(TACACS+\)**
 
 * Handles authentication, authorization, and accounting \(AAA\) services.
 * Similar to RADIUS
@@ -112,13 +116,13 @@
 
 ![](../../.gitbook/assets/image%20%288%29.png)
 
-**Password Authentication Protocol \(PAP\)**
+### **Password Authentication Protocol \(PAP\)**
 
 * Legacy
 * User ID and password sent clear text.
 * No protection for playback or trial-and-error attacks.
 
-**Challenge Handshake Authentication Protocol \(CHAP\)**
+### **Challenge Handshake Authentication Protocol \(CHAP\)**
 
 * Provides on-demand authentication over encrypted channels.
 * Server first authenticates client.
@@ -126,7 +130,7 @@
 * Client hash is compared against service's hash by the authenticator service.
 * Process is repeated at random intervals to prevent replay attacks.
 
-**MSCHAP & PEAP**
+### **MSCHAP & PEAP**
 
 * MSCHAPv2 - Microsoft proprietary version.
   * Uses a new string each time for authentication.
@@ -138,7 +142,7 @@
   * Protects the authentication traffic.
   * Uses a certificate on the authentication server.
 
-**NT LAN Manager \(NTLM\)**
+### **NT LAN Manager \(NTLM\)**
 
 * Legacy authentication from Microsoft.
 * Replaced by Kerberos.
@@ -146,7 +150,7 @@
 * All NTLM versions use relatively weak cryptographic schemes.
 * Lacks MFA support.
 
-**Federated Services**
+### **Federated Services**
 
 * Security Assertion Markup Language \(SAML\)
   * An Extensible Markup Language \(XML\) framework for creating and exchanging security information between online systems.
@@ -173,7 +177,7 @@
   * Uses an ID token structure, including the authentication of end user via JSON Web Token \(JWT\).
   * A JWT is used to prove that an authentic source created the originating data.
 
-**Two-Phase Commit**
+### **Two-Phase Commit**
 
 * A two-phase commit ensures that an entire transaction is executed to ensure data integrity. 
 * If a portion of a transaction cannot complete, the entire transaction is not performed. 

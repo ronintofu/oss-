@@ -1,11 +1,15 @@
 # Incident Response
 
-**Incident Definition**
+### **Incident Definition**
 
 * NIST - 'An occurrence that actually or potentially jeopardizes the confidentiality, integrity, or availability of an information system or the information the system processes, stores, or transmits or that constitutes a violation or imminent threat of violation of security policies, security procedures, or acceptable use policies.'
 * Cybrary - 'An incident is an unplanned disruption or degradation of a network or system service and needs to be resolved immediately.'
 
-**NIST Incident Response Process**![](https://www.evernote.com/shard/s342/res/fc615ab6-3e2b-90a5-f310-427804e2dcb4)**Incident Response Plan**
+### **NIST Incident Response Process**
+
+![](https://www.evernote.com/shard/s342/res/fc615ab6-3e2b-90a5-f310-427804e2dcb4)
+
+### **Incident Response Plan**
 
 * The documentation of a predetermined set of instructions or procedures to to detect, respond to, and limit consequences of a malicious cyber attacks against an organization's information system\(s\). \[NIST\]
 * NIST Computer Security Incident Handling Guide \(SP 800-61\) provides guidance on exact elements to include:
@@ -16,7 +20,7 @@
   * Roadmap for maturing response capability.
   * How the incident response program fits into the organization.
 
-**Incident Response Plan \(IRP\)**
+### **Incident Response Plan \(IRP\)**
 
 * Documented incident types/category definitions.
   * Natural
@@ -67,9 +71,7 @@
   * Test systems and processes to find issues.
   * Tabletop and functional exercises.
 
-
-
-**Incident Preparation**
+### **Incident Preparation**
 
 * Create an "Incident Response Plan" or IRP.
 * Hardware/Software/Communications
@@ -80,7 +82,7 @@
   * Procedures
   * Contacts
 
-**Incident Detection / Identification / Analysis**
+### **Incident Detection / Identification / Analysis**
 
 * Alerting
   * Logs - IDS, SIEM, AV
@@ -98,7 +100,7 @@
 * Escalation
 * Documentation & Notification
 
-**Incident Containment**
+### **Incident Containment**
 
 * Ensuring incident doesn't continue or spread.
 * Securing the scene / limiting access / isolating systems \(quarantine\)
@@ -107,7 +109,7 @@
   * Logical
 * Gathering Evidence
 
-**Eradication**
+### **Eradication**
 
 * Find and eliminate the root cause.
 * Removing elements of the incident, such as malware.
@@ -117,7 +119,7 @@
   * Re-Imaging Systems
   * Restoring from Backup
 
-**Incident Recovery**
+### **Incident Recovery**
 
 * The process of restoring and returning affected systems and devices back into your business environment.
 * Repair
@@ -129,7 +131,7 @@
 * Procedural Changes
 * Documentation
 
-**Post Incident**
+### **Post Incident**
 
 * Lessons Learned
 * After-action meeting with all Incident Response Team members.

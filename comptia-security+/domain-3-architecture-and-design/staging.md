@@ -1,6 +1,6 @@
 # Staging
 
-**Secure Staging & Deployment**
+### **Secure Staging & Deployment**
 
 * Secure Baseline
   * A process whereby you use a security standard for any system, app, or service that is considered secure to create your own security benchmark.

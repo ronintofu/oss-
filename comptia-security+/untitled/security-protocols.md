@@ -1,6 +1,6 @@
 # Security Protocols
 
-**Security Protocols - Web**
+### **Security Protocols - Web**
 
 * SSL - Secure Sockets Layer \(latest version: 3.0\) [{source}](https://en.wikipedia.org/wiki/Transport_Layer_Security)
   * Now depreciated by the IETF and should not be used.
@@ -15,14 +15,14 @@
   * X.509 digital certificates.
   * 256-bit encryption keys.
 
-**Domain Name Service \(DNS\) Security**
+### **Domain Name Service \(DNS\) Security**
 
 * Suite of Internet Engineering Task Force \(IETF\) specifications.
 * Protects against DNS Cache Poisoning.
 * DNS extensions provide DNS clients \(resolvers\) origin authentication of the DNS data, authenticated denail of existence, and data integrity.
   * Not confidentiality or availability.
 
-**SSH - Secure Shell** [{source}](https://en.wikipedia.org/wiki/SSH_%28Secure_Shell%29)
+### **SSH - Secure Shell** [{source}](https://en.wikipedia.org/wiki/SSH_%28Secure_Shell%29)
 
 * Replaces telnet for remote communications.
 * Establishes a session between the client and host computers using an authenticated and encrypted connection.
@@ -30,7 +30,7 @@
 * Used for remote administration of Linux servers.
 * Other protocols can tunnel through SSH.
 
-**Secure Email**
+### **Secure Email**
 
 * Secure / Multipurpose Internet Mail Exentioins \(S/MIME\)
   * A standard for encryption \(confidentiality\) and signing \(authentication\) of MIME \(email\) data.
@@ -40,7 +40,7 @@
   * Use SSL to secure emails in transit between a POP or an IMAP server and the client.
   * External email.
 
-**FTPS - Securing FTP**
+### **FTPS - Securing FTP**
 
 * FTP - File Transfer Protocol
   * Passes credentials in clear text.
@@ -52,7 +52,7 @@
 * SFTP \(Secure FTP\)
   * Uses SSH to transfer files \(SSL encapsulation\).
 
-**SRTP**
+### **SRTP**
 
 * Secure voice and video transmissions.
 * Voice and video calls are established with session initiation protocol \(SIP\) and data is transmitted with realtime transfer protocol \(RTP\).
@@ -60,7 +60,7 @@
   * Extension to RTP.
   * Intended to provide encryption, message authentication and integrity, and replay attack protection to the RTP data in both unicast and multicast applications.
 
-**LDAPS**
+### **LDAPS**
 
 * LDAP is a Directory Protocol
   * Contains sensitive information about organizational systems and users.
@@ -68,7 +68,7 @@
 * LDAPS over SSL/TLS
 * Uses TCP port 636.
 
-**SNMPv3**
+### **SNMPv3**
 
 * SNMP \(Simple Network Management Protocol\) used to manage networks.
 * Each managed device has a software agent reporting configuration settings and alerts \(traps\) to a central SNMP Management Server.
@@ -76,18 +76,18 @@
 * SNMPv3 encrypts data.
 * Uses port 161.
 
-**Network Address Allocation**
+### **Network Address Allocation**
 
 * Allocating IP addresses.
 * DHCP \(Dynamic Host Control Protocol\) - Assigns internal IP addresses.
 * Use of network subnets to segregate multiple hosts and control network traffic.
 
-**Time Synchronization**
+### **Time Synchronization**
 
 * NTP \(Network Time Protocol\) - UDP protocol used to synch time based on the atomic clock.
 * NTP Servers - redundant and secured.
 
-**Subscription Services**
+### **Subscription Services**
 
 * Software as a Service \(SaaS\)
 * Cloud email: Gmail, microsoft office, etc.
@@ -97,7 +97,7 @@
   * AV
   * Patching
 
-**Secure Copy Protocol \(SCP\)** [{source}](https://en.wikipedia.org/wiki/Secure_copy_protocol)
+### **Secure Copy Protocol \(SCP\)** [{source}](https://en.wikipedia.org/wiki/Secure_copy_protocol)
 
 * A means of securely trasnferring files between a local host and a remote host or between two remote hosts. 
 * Based on SSH. 

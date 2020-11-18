@@ -1,10 +1,10 @@
 # Cloud
 
-**Cloud Computing**
+### **Cloud Computing**
 
 * NIST SP800-145: "Cloud computing is a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources \(e.g. networks, servers, storage, applications, and services\) that can be rapidly provisioned and released with minimal management effort or service provider interaction."
 
-**On-Premise vs Hosted vs Cloud**
+### **On-Premise vs Hosted vs Cloud**
 
 * On-Premise - Servers at organization's location.
 * Hosted - Servers outsourced to an external provider.
@@ -18,7 +18,7 @@
 * Rapid Elasticity or Expansion
 * Measured Service
 
-**Cloud Computing Service Models**
+### **Cloud Computing Service Models**
 
 * Software as a Service \(SaaS\)
   * "The capability provided to the consumer is the provider's applications running on a cloud infrastructure. The applications are accessible from various client devices through either a thin client interface, such as a web browser \(e.g., web-based email\), or a program interface. The consumer does not manage or control the underlying cloud infrastructure including network, servers, OS, storage, or even individual application capabilities, with the possible exception of limited user-specific application configuration settings."
@@ -27,15 +27,15 @@
 * Infrastructure as a Service \(IaaS\)
   * "The capability provided to the consumer is to provision processing, storage, networks, and other fundamental computing resources where the consumer is able to deploy and run arbitrary software, which can include OSs and apps. The consumer does not manage or control the underlying cloud infrastructure but has control over OSs, storage, and deployed apps; and possibly limited control of select networking components \(e.g., host firewalls\)."
 
-**Cloud Deployment Models**
+### **Cloud Deployment Models**
 
 ![](https://www.evernote.com/shard/s342/res/8ca80184-12c9-7d71-cec5-196ae9f6af05)
 
-**Virtualization**
+### **Virtualization**
 
 ![](https://www.evernote.com/shard/s342/res/d80a4d7d-f7b3-120b-400e-a2e669fd8b52)
 
-**Hypervisors**
+### **Hypervisors**
 
 * Underlying tech that creates and runs VMs.
 * Presents the guest OSs with virtual operating platform and manages the execution of the guest OSs.
@@ -43,7 +43,7 @@
   * Type 1 - Native or Bare-Metal
   * Type 2 - Hosted
 
-**Containers**
+### **Containers**
 
 * Replacing or used with hypervisors.
 * A lightweight, stand-alone, executable package of software that includes everything needed to run it:
@@ -53,7 +53,7 @@
   * System Libraries
   * Settings
 
-**VDI / VDE**
+### **VDI / VDE**
 
 * Virtual Desktop Environment \(VDE\)
   * Desktop Virtualization
@@ -61,14 +61,14 @@
   * The user's desktop is running inside a virtual machine that resides on a server in a datacenter.
   * A form of VDE that enables fully personalized desktops for each user.
 
-**Cloud Storage - Network Storage**
+### **Cloud Storage - Network Storage**
 
 * DAS \(direct attached storage\)
 * NAS \(network area storage\)
 * SANs \(storage area networks\)
 * Date Security - Encryption on the storage device.
 
-**Virtualization Security**
+### **Virtualization Security**
 
 * VM Escape Protection - Leaving an assigned VM.
 * VM Sprawl Avoidance - [{source}](https://www.vmware.com/techpapers/2012/controlling-virtual-machine-sprawl-10339.html)

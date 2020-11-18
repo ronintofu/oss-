@@ -1,6 +1,6 @@
 # Networking Basics
 
-**What is a 'Network'?**
+### **What is a 'Network'?**
 
 * A network is a way to get 'stuff' between 2 or more 'things'.
 * Goal: Basic understanding of common modern networking technology and terminology.
@@ -19,7 +19,7 @@
     * Database.
     * Web.
 
-**Protocol Concepts**
+### **Protocol Concepts**
 
 * Protocols are a set of rules.
 * What do you want to do? \(Application\)
@@ -27,7 +27,7 @@
 * How did you get there? \(Media Types\)
 * Did you get there? \(Acknowledgements, Error Checking\)
 
-**Computer Networking Models**
+### **Computer Networking Models**
 
 * Models, also called protocol stacks, represented in layers, help to understand where things go right or wrong.
 
@@ -35,14 +35,14 @@
 
 ![Network Services: TCP/IP and the OSI Model](https://3.bp.blogspot.com/-0nh6-bv5qUg/UpOpaFpAVhI/AAAAAAAADds/Y8z1p7dGWVc/w1200-h630-p-k-no-nu/Network+_FIGURE+3+.+1+A+comparison+of+the+seven-layer+OSI+model,+the+four-layer+DoD+model,+and.png)
 
-**Physical Layer \(Layer 1\)**
+### **Physical Layer \(Layer 1\)**
 
 * Cat 5 \(5e, 6\) twisted pair copper wire.
 * Fiber \(multi-mode or single-mode\) coaxial copper \(thick and thin-net\).
 * Cable modem, plain phone \(DSL\), microwaves \(wireless ethernet\), etc.
 * WiFi, IEEE 802.11
 
-**Data Link \(Layer 2\)**
+### **Data Link \(Layer 2\)**
 
 * The MAC address, or sometimes ethernet address, physical address, adaptor address, hardware address, etc.
 * It's a 12 digit \(48 bit\) hexadecimal address that is unique to that ethernet adaptor and no other in the world. It can be written as 00:30:65:83:fc:0a, 0030.6583.fc0a, 03065:84fc0a, or 00-30-65-83-fc-0a, but they all mean the same thing.
@@ -53,7 +53,7 @@
   * Type Ifconfig /all \(Windows\) or ipconfig \(Linux, OSX\).
   * On phones it's found in the settings under "About Phone".
 
-**Network Layer \(Layer 3\)**
+### **Network Layer \(Layer 3\)**
 
 * The Internet Protocol \(IP\) is the Network layer protocol used on the internet.
 * ARP: Address Resolution Protocol. Turns an IP number into an ethernet number. Asks IPs for MAC addresses.
@@ -71,7 +71,7 @@
     * If you need to go outside the site, you'd ask the servers to figure out which other servers should get your request, send it to them, and then you'd get a reply back from the original DNS server queried.
       * Host -&gt; DNS -&gt; Outside DNS -&gt; DNS -&gt; Host.
 
-**Transport Layer \(Layer 4\)**
+### **Transport Layer \(Layer 4\)**
 
 * The protocols of the layer provide host-to-host communication services for applications.
 * Uses in-coming and out-going ports to/from a server.
@@ -82,7 +82,7 @@
   * Transmission Control Protocol \(TCP\) is connection-oriented and provides error checking.
   * User Datagram Protocol \(UDP\) is connectionless, used for streaming.
 
-**Application Layer \(Layer 7\)**
+### **Application Layer \(Layer 7\)**
 
 * Interfaces with the operating system and other applications and communicates data between files, messages, and other network activities.
   * Email \(SMTP\)
@@ -90,7 +90,7 @@
   * File Transfer \(FTP, Telnet\)
   * Time \(NTP\)
 
-**Port Knocking** [{source}](https://en.wikipedia.org/wiki/Port_knocking)
+### **Port Knocking** [{source}](https://en.wikipedia.org/wiki/Port_knocking)
 
 * A method of externally opening ports on a firewall by generating a connection attempt on a set of pre-specified closed ports. 
 * Once a correct sequence of connection attempts is received, the firewall rules are dynamically modified to allow the host which sent the connection attempts to connect over the specified port\(s\). 

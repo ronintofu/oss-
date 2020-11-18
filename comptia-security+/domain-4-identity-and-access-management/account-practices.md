@@ -1,6 +1,6 @@
 # Account Practices
 
-**General Concepts**
+### **General Concepts**
 
 * On-boarding/off-boarding.
 * Standard naming convention for user IDs.
@@ -8,7 +8,7 @@
 * Time-of-day restrictions.
 * Location-based policies.
 
-**Account Types**
+### **Account Types**
 
 * _User Accounts_ - issued to users for authentication.
 * _Guest Accounts_
@@ -20,7 +20,7 @@
   * Restrict as much as possible.
 * Change the names of default system accounts.
 
-**Account Types**
+### **Account Types**
 
 * Service Accounts
   * Used by systems/apps
@@ -35,7 +35,7 @@
     * Linux Sudo
   * Restrict authorization & increase logging.
 
-**Account Restrictions**
+### **Account Restrictions**
 
 * Time of Day Restrictions
   * Limits the time of day a user may log onto a system.
@@ -53,7 +53,7 @@
 * Orphaned accounts remain a problem in today's organizations.
 * Password expiration sets a time when the user must create a new password.
 
-**Account Policy Enforcement**
+### **Account Policy Enforcement**
 
 * Credential Management
 * Group Policy
@@ -62,7 +62,7 @@
 * Recovery
 * Disablement / Locking
 
-**Password Policies**
+### **Password Policies**
 
 * _Password History_
   * Allows you to configure how many new passwords must be created before an old one can be reused. 
@@ -88,7 +88,7 @@
       * Upper & Lower Case
     * Special Characters
 
-**Password Weaknesses**
+### **Password Weaknesses**
 
 * Weakness of passwords is linked to human memory.
   * Humans can only memorize a limited number of items.
@@ -101,7 +101,7 @@
   * Reuse the same password for multiple accounts.
     * Easier for an attacker who compromises one account to access others.
 
-**Password Defenses**
+### **Password Defenses**
 
 * Creating strong passwords.
 * Most passwords consist of:
@@ -117,5 +117,4 @@
   * Do not use short passwords.
 * Managing passwords:
   * Prevent an attacker from obtaining the encrypted pw file.
-  * 
 

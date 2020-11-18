@@ -1,12 +1,12 @@
 # Frameworks
 
-**Types of Frameworks**
+### **Types of Frameworks**
 
 * Regulatory vs Non-Regulatory
 * National vs International
 * Industry-Specific Frameworks
 
-**Industry Standard Frameworks**
+### **Industry Standard Frameworks**
 
 * International Organization for Standardization \(ISO\)
 * National Institute of Standards and Technology \(NIST\)
@@ -15,7 +15,7 @@
 * Center for Internet Security \(CIS\)
 * Open Web Application Security Project \(OWASP\)
 
-**ISO/IEC 27002: 2013**
+### **ISO/IEC 27002: 2013**
 
 * Gives guidelines for organizational information security standards and information security management practices including the selection, implementation, and management of controls taking into consideration the organization's information security risk environment\(s\).
 * It is designed to be used by organizations that intend to:
@@ -24,7 +24,7 @@
   * Develop their own information security management guidelines.
 * [https://www.iso.org/standard/54533.html](https://www.iso.org/standard/54533.html)
 
-**ISO/IEC 27002: 2013 - Topics**
+### **ISO/IEC 27002: 2013 - Topics**
 
 * Information Security Policies
 * Organization of Information Security
@@ -40,7 +40,7 @@
 * Incident Management
 * Business Continuity Management
 
-**ISO/IEC 27017: 2015**
+### **ISO/IEC 27017: 2015**
 
 * Gives guidelines for information security controls applicable to the provision and use of cloud services by providing:
   * Additional implementation guidance for relevant controls specified in the ISO/IEC 27002.
@@ -48,21 +48,21 @@
 * This recommendation provides controls and implementation guidance for both cloud service providers and cloud service customers.
 * [https://www.iso.org/standard/43757.html](https://www.iso.org/standard/43757.html)
 
-**National Institute of Standards and Technology \(NIST\)**
+### **National Institute of Standards and Technology \(NIST\)**
 
 * U.S. National Standards
 * The Computer Security Resource Center \(CSRC\) provides NIST's cybersecurity and information security related projects, publications, news, and events.
 * The NIST Cybersecurity Framework \(NIST CSF\) is a group of related standards that are designed to provide guidance on cybersecurity.
 * Each standard is published as a NIST SP \(Special Publication\).
 
-**NIST Special Publications 800 Series \(SP800\)**
+### **NIST Special Publications 800 Series \(SP800\)**
 
 * SP 800-30 - Guide for Conducting Risk Assessments
 * SP 800-35 - Guide to Information Technology Security Services
 * SP 800-53 - Security and Privacy Controls for Federal Information Systems and Organizations
 * SP 800-53A - Assessing Security and Privacy Controls in Federal Information Systems and Organizations: Building Effective Assessment Plans
 
-**Payment Card Industry Data Security Standard \(PCI-DSS\)**
+### **Payment Card Industry Data Security Standard \(PCI-DSS\)**
 
 * Used by Visa, Mastercard, American Express, and Discover to create common security controls for the protection of Card Holder Data \(CHD\).
 * Any organization processing credit cards must be compliant.
@@ -74,7 +74,7 @@
   * Regularly monitor and test networks.
   * Maintain a vulnerability management program.
 
-**Benchmarks / Security Configuration Guides**
+### **Benchmarks / Security Configuration Guides**
 
 * IASE - Information Assurance Support Environment
 * DoD Security Technical Implementation Guides \(STIGs\)
@@ -90,7 +90,7 @@
     * Microsoft IIS
     * Apache
 
-**Defense in Depth / Layered Security**
+### **Defense in Depth / Layered Security**
 
 * Defense in Depth - The coordinated use of multiple security countermeasures to information assets.
 * Segmentation - The act or practice of splitting a computer network into zones or subnetworks absed on business function or security needs.

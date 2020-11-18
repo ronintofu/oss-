@@ -1,6 +1,6 @@
 # Mobile Security
 
-**Mobile Devices**
+### **Mobile Devices**
 
 What is a mobile device?  
 Any easily transportable computing system.
@@ -12,7 +12,7 @@ Any easily transportable computing system.
 * Watches
 * IoT
 
-**Connection Methods**
+### **Connection Methods**
 
 * Cellular Communications
   * Components
@@ -46,7 +46,7 @@ Any easily transportable computing system.
 * Infrared - Using light in the infrared spectrum.
 * USB / Firewire
 
-**Mobile Device Management \(MDM\)**
+### **Mobile Device Management \(MDM\)**
 
 * The administration of mobile devices in an organization.
 * Software used to inventory, monitor, manage, and secure employees' mobile devices, deployed across multiple mobile service providers and across multiple mobile operating systems.
@@ -55,7 +55,7 @@ Any easily transportable computing system.
 * Managing applications.
 * Enforcing policies.
 
-**MDM Capabilities**
+### **MDM Capabilities**
 
 * Mobile Application Management \(MAM\)
   * Restricting applications.
@@ -69,7 +69,7 @@ Any easily transportable computing system.
   * Operating system push notification service \(OSPNS\)
   * Allows auto-updating base OS and client apps.
 
-**MDM Concepts**
+### **MDM Concepts**
 
 * Separate personal and business content.
 * Storage Segmentation
@@ -101,7 +101,7 @@ Any easily transportable computing system.
     * Time
     * Activity
 
-**Deployment Models**
+### **Deployment Models**
 
 * BYOD - Bring Your Own Device
   * Employees use own personal device.
@@ -113,7 +113,7 @@ Any easily transportable computing system.
   * Company has complete control over the device.
 * VDI - Virtual Desktop Infrastructure
 
-**Enforcement & Monitoring**
+### **Enforcement & Monitoring**
 
 * Third-Party App Stores
   * Restrict based on policy.
@@ -135,7 +135,7 @@ Any easily transportable computing system.
   * Automatically update device when attached to corporate WiFi or computers.
   * Users may have no control of updates.
 
-**Garmin ANT {source}**
+### **Garmin ANT** [**{source}**](https://en.wikipedia.org/wiki/ANT_%28network%29)\*\*\*\*
 
 * A proprietary \(but open access\) multi-cast wireless sensor network tech designed and marketed by ANT Wireless \(a division of Garmin Canada\).
 * Primarily used for sports and fitness sensors.

@@ -1,6 +1,6 @@
 # Data Privacy
 
-**Data Sensitivity Labeling and Handling**
+### **Data Sensitivity Labeling and Handling**
 
 * Data / Info classified according to its value and level of sensitivity.
 * The appropriate level of security can be applied.
@@ -9,7 +9,7 @@
   * Consistent
   * Visible
 
-**Data Sensitivity Classifications**
+### **Data Sensitivity Classifications**
 
 * Common Labels:
   * Public / Unclassified - No harm if disclosed.
@@ -19,7 +19,7 @@
   * Private - Information regarding people.
 * Classification terms and labeling is determined by the organization.
 
-**Sensitive Data Types - Legal**
+### **Sensitive Data Types - Legal**
 
 * PII - Personally Identifiable Information
   * Data that identifies or is traceable to a specific individual.
@@ -27,13 +27,13 @@
 * PHI - Protected \(or Personal\) Health Information
   * HIPAA, "any information about health status, provision of health care, or payment for health care that is created or collected by a "Covered Entity" that can be linked to a specific individual."
 
-**Data Roles**
+### **Data Roles**
 
 * Data Owner
 * Data Custodian
 * Privacy Officer
 
-**Data Retention & Disposal**
+### **Data Retention & Disposal**
 
 * Retention
   * US Federal Rules of Civil Procedure \(FRCP\)
@@ -42,7 +42,7 @@
 * Disposal
   * Properly disposing of data and associated hardware.
 
-**Data Destruction and Media Sanitation**
+### **Data Destruction and Media Sanitation**
 
 * Trusting third parties for destruction.
 * Observe destruction process.

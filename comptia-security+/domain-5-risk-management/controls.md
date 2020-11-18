@@ -1,12 +1,12 @@
 # Controls
 
-**Controls**
+### **Controls**
 
 * A defense or countermeasure to put in place to manage risk.
 * Policies, strategies, technologies, configuration settings, etc. established in collaboration with various departments of an organization to help mitigate known risks.
 * The means of managing risk, including policies, procedures, guidelines, practices, or organizational structures, which can be an administrative, technical, management, or legal nature.
 
-**Control Categories**
+### **Control Categories**
 
 * _Technical / Logical Controls_
   * Implemented through technology.
@@ -31,7 +31,7 @@
     * Locks
     * Badges
 
-**Control Types**
+### **Control Types**
 
 * Deterrent Controls
   * Intended to discourage individuals from intentionally violating security policies, procedures, or technologies.

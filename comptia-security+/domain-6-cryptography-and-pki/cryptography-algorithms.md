@@ -1,6 +1,6 @@
 # Cryptography Algorithms
 
-**Obfuscation**
+### **Obfuscation**
 
 * The act of making something difficult to understand.
 * Substitution Cipher - Substitutes one symbol for another.
@@ -14,7 +14,7 @@
 
 ![](../../.gitbook/assets/image%20%281%29.png)
 
-**Symmetric Algorithms**
+### **Symmetric Algorithms**
 
 * _Data Encryption Standard \(DES\)_
   * Adopted by NIST in 1977.
@@ -65,7 +65,7 @@
   * A type of algorithm that generates a number that is "random enough" for cryptographic purposes. 
   * Used in AES, DES, and Blowfish.
 
-**Cipher Modes**
+### **Cipher Modes**
 
 * _Counter Mode \(CTR\)_
   * Turns a block cipher into a stream cipher.
@@ -76,7 +76,7 @@
   * Thereafter, each block of plain text is obfuscated with the cipher text from the previous block before it is encrypted.
   * Introduces more diffusion & reduces effects of plain-text attacks.
 
-**Asymmetric Encryption**
+### **Asymmetric Encryption**
 
 * Uses two keys.
   * One for encryption.
@@ -86,7 +86,7 @@
 * Only the private key needs to be kept secret.
 * Only the private key can decrypt the message.
 
-**Asymmetric Algorithms**
+### **Asymmetric Algorithms**
 
 * Extra computational overhead.
 * Used primarily for:
@@ -129,7 +129,7 @@
   * AKA Merkle-Hellman Knapsack Crypotosystem
     * One of the earliest public key cryptosystems. 
 
-**Hashing**
+### **Hashing**
 
 * 'Digital fingerprint'
 * Work by taking a string of any length and producing a fixed-length string for output.
@@ -137,7 +137,7 @@
 * Originator takes a hash of  the file and provides hash to receiver.
 * Receiver takes hash of file and compares with original to ensure file integrity.
 
-**Hashing Algorithms**
+### **Hashing Algorithms**
 
 * _Secure Hash Algorithm \(SHA, SHA-1, SHA-2, SHA-3\)_
   * Developed by the US NSA
@@ -164,7 +164,7 @@
   * Creates message digests of variable sizes rather than a fixed output value. 
   * Produces hashes in lengths of 128, 160, 192, 224, and 256. 
 
-**Rainbow Tables and Salts**
+### **Rainbow Tables and Salts**
 
 * _Rainbow Table_
   * A pre-computed table for reversing cryptographic hash functions.
@@ -172,7 +172,7 @@
 * _Salt_
   * Random data that is used as an additional input to hash
 
-**Key Stretching**
+### **Key Stretching**
 
 * Processes used to take a weak key and make it stronger, usually by making it longer.
 * _Bcrypt_

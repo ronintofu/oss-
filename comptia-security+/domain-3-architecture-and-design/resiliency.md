@@ -1,6 +1,6 @@
 # Resiliency
 
-**Automation / Scripting**
+### **Automation / Scripting**
 
 * Reduces risk through repeatable processes and automated courses of action.
 * Leveraging sophisticated monitors and sensors / continuous monitoring.
@@ -9,14 +9,14 @@
   * Linux Shells: Bash, Ksh
   * Windows: PowerShell
 
-**Master Image**
+### **Master Image**
 
 * AKA 'Gold' Image.
 * Creating a model OS verified as 'clean'.
 * Used for system restores.
 * Needs to be secured.
 
-**Managing Cloud Risk**
+### **Managing Cloud Risk**
 
 * Nonpersistence - Temporary system images. Snapshot of a known, good state.
 * Elasticity / Scalability - Adjusting resources as needed.
@@ -24,7 +24,7 @@
 * Redundancy - Replicating systems usually at multiple sites. Associated with failover.
 * Distributive Allocation / Load Balancing - Distributing burden across multiple systems.
 
-**Fault Tolerance**
+### **Fault Tolerance**
 
 * The ability of a system to sustain operations in the event of a component failure.
 * Two key components: spare parts and electrical power.
@@ -33,7 +33,7 @@
   * Uninterruptible Power Supply \(UPS\)
   * Backup Power / Generators
 
-**RAID Storage**
+### **RAID Storage**
 
 * Redundant Array of Inexpensive Disks
 * Focuses on availability of data.

@@ -1,19 +1,18 @@
 # Public Key Infrastructure
 
-**Public and Private Keys**
+### **Public and Private Keys**
 
 * Encrypt a document with the recipient's public key. Only their private key needs to be kept secret and only it can decrypt the message.
 * The sender's private key is used to sign the message.
 
-**PKI Components**  
-Public Key Infrastructure
+### **PKI Components** Public Key Infrastructure
 
 * Solves the issue with key management.
 * A set of roles, policies, and procedures needed to manage public-key \(asymmetric\) encryption.
 * The process of creating, managing, distributing, storing, using, and revoking keys and digital certificates.
 * Public Key Infrastructure X.509 \(PKIX\) is the working group formed by the IETF to develop standards and models of PKI.
 
-**PKI Digital Certificate**
+### **PKI Digital Certificate**
 
 * A digitally signed block of data used to prove the ownership of a public key issued by a Certificate Authority.
 * Includes:
@@ -22,11 +21,11 @@ Public Key Infrastructure
   * The digital signature of an entity that has verified the certificate's contents \(called the issuer\).
 * X.509 v3 Standard defines the certificate formats and fields for public keys.
 
-**Digital Certificate Components**
+### **Digital Certificate Components**
 
 ![](https://www.evernote.com/shard/s342/res/a923ee24-ac3a-dc0c-75f9-1f5248527da6)
 
-**X.509 Certificate Types**
+### **X.509 Certificate Types**
 
 * The original file extension for X.509 is PFX.
   * A PFX certificate file is used by Microsoft and contains both the public and private keys. 
@@ -58,7 +57,7 @@ Public Key Infrastructure
 * Email Certificates - securing email \(S/MIME\).
 * User Certificates - for individual use.
 
-**Certificate Formats**
+### **Certificate Formats**
 
 * Distinguished Encoding Rules \(DER\)
   * Stored as binary files. 
@@ -74,7 +73,7 @@ Public Key Infrastructure
 
 ![](https://www.evernote.com/shard/s342/res/47a4a3fd-f5e3-a2a5-2a3d-48db219464e3)
 
-**PKI Components - Certificate Authority \(CA\)**
+### **PKI Components - Certificate Authority \(CA\)**
 
 * Trusted entities.
 * Internal - AKA self-signed.
@@ -84,7 +83,7 @@ Public Key Infrastructure
   * Verifies the holder of a digital certificate.
   * Ensures that holders of certificates are who they claim to be.
 
-**PKI Components - Registration Authority \(RA\)**
+### **PKI Components - Registration Authority \(RA\)**
 
 * Offloads work from the CA.
 * Validate user's or endpoint's identities.
@@ -92,7 +91,7 @@ Public Key Infrastructure
 * Distributes keys.
 * Does NOT issue certs.
 
-**Certificate-Signing Request \(CSR\)**
+### **Certificate-Signing Request \(CSR\)**
 
 * Request from applicant to CA top apply for a digital cert.
 * Includes:
@@ -101,7 +100,7 @@ Public Key Infrastructure
   * Legally incorporated name of the company.
   * Address.'
 
-**Certificate Revocation**
+### **Certificate Revocation**
 
 * The process of invalidating a cert before its expiration date, often due to private key loss or compromise.
 * Three levels:
@@ -119,7 +118,7 @@ Public Key Infrastructure
   * Allows the web server to "staple" a time-stamped OCSP response as part of the TLS handshake with the client.
   * The web server is now responsible for handling OCSP requests instead of the CA.
 
-**Certificate Trust Models**
+### **Certificate Trust Models**
 
 * Single CA
   * Simples, no redundancy.
@@ -128,27 +127,27 @@ Public Key Infrastructure
   * Root CA - top of the hierarchy, may be offline.
   * Intermediate CA - subordinate CAs provide redundancy and load balancing.
 
-**Trust Models**
+### **Trust Models**
 
 * Certificate Chaining
 * Web of Trust - A cross-certification model.
   * Peer-to-peer trust relationship with other CAs.
 * Bridge CA - Cross-certification model using a central point of trust.
 
-**Key Escrow**
+### **Key Escrow**
 
 * Trusted third party maintains keys.
 * Addresses the possibility that a crypto key may be lost.
   * If key is lost, then the data is lost.
 * Key Recovery Agent is an entity that has the ability to recover a key, key components, or plaintext messages as needed.
 
-**Pinning**
+### **Pinning**
 
 * Hashes of public keys for popular web servers are included with applications such as web browsers.
 * Mitigates the use of fraudulent certs.
 * HTTP Public Key Pinning \(HPKP\) - uses public key pins, which are essentially hashed values of the public key communicated to the browser client from the server in the HTTP header
 
-**Subject Alternative Name \(SAN\)** - [{source}](https://en.wikipedia.org/wiki/Subject_Alternative_Name)
+### **Subject Alternative Name \(SAN\)** - [{source}](https://en.wikipedia.org/wiki/Subject_Alternative_Name)
 
 * A field in the certificate definition that allows you to stipulate additional information, such as an IP address or host name, associated with the certificate. 
 

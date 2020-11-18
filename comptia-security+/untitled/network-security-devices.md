@@ -1,13 +1,13 @@
 # Network Security Devices
 
-**Firewalls**
+### **Firewalls**
 
 * Isolate one network from another.
 * A network security device that monitors incoming and outgoing network traffic and decides whether to allow or block specific traffic based on a defined set of security rules \(CISCO\).
 * Hardware \(appliances\), software, or both.
 * Network or host-based.
 
-**Firewall Types**
+### **Firewall Types**
 
 * Packet filter.
   * Passes or blocks traffic to specific ports or IP addresses based on rules.
@@ -20,7 +20,7 @@
   * Web proxy.
 * Stateful packet inspection.
 
-**Stateful Inspection Firewalls**
+### **Stateful Inspection Firewalls**
 
 * Intelligent.
 * Analyzes data flows and traffic patterns.
@@ -28,7 +28,7 @@
 * Records are kept using a state table that tracks every communications channel;
   * Remembers where the packet came from and where the next one should come from.
 
-**Firewall Rules**
+### **Firewall Rules**
 
 * Configured to specify computers, programs, services, or ports/protocols.
 * Order of firewall rules matters.
@@ -39,7 +39,7 @@
 * Implicit Allow - an allowed permission that is implied for that resource based on another explicit or implicit permission.
 * Explicit Allow - an allowed permission that is configured explicitly for that resource.
 
-**Application Firewalls**
+### **Application Firewalls**
 
 * Controls input, output, and/or access from, to, or by an application or service based on categories, rules, or heuristics.
 * Deep packet inspection.
@@ -48,7 +48,7 @@
   * Protects web applications from known attacks \(injection, buffer overflows, etc\)
 * Often included in other firewall types \(Proxy, IDS/IPS\).
 
-**IDS/IPS**
+### **IDS/IPS**
 
 * Intrusion - any activity or action that attempts to undermine or compromise the confidentiality, integrity, or availability of resources.
 * Intrusion Detection/Protection Systems
@@ -57,7 +57,7 @@
 * Host-based \(HIDS/HIPS\)- on individual systems.
 * Network-based \(NIDS/NIPS\) - on the network borders.
 
-**IDS vs IPS - Detection vs Prevention**
+### **IDS vs IPS - Detection vs Prevention**
 
 * IDS - Passive response
   * Logging
@@ -68,7 +68,7 @@
   * Configuration changes.
   * Deception Active Response - Attacker believes the attack is succeeding while the system monitors the activity and potentially redirects the attacker to a honeypot or logging system.
 
-**IDS / IPS Types**
+### **IDS / IPS Types**
 
 * Signature Based \(AKA Knowledge Based\)
   * Detects known vulnerabilities.
@@ -82,19 +82,19 @@
   * Uses algorithms to analyze the activity / network traffic.
   * High initial overhead.
 
-**IDS / IPS Analytics**
+### **IDS / IPS Analytics**
 
 * False Positive - Occurs when a typical or expected behavior is identified as irregular or malicious.
 * False Negative - Occurs when an alert that should have been generated did not happen.
 
-**NIDS / NIPS**
+### **NIDS / NIPS**
 
 * Network Intrusion Detection / Protection Systems
 * Analysis used to be separate, now combined with firewalls.
 * Passive - traffic is mirrored to sensor.
 * Inline - with traffic flows and prevents attacks in real time. Could cause latency.
 
-**VPN Concentrators**
+### **VPN Concentrators**
 
 * A VPN allows remote access into a network.
   * site-to-site
@@ -110,7 +110,8 @@
 * Cannot be placed wherever they are needed.
   * Should be placed in the perimeter network near the gateway. 
 
-**Internet Protocol Security \(IPSec\)**  
+### **Internet Protocol Security \(IPSec\)**
+
 \[[https://www.geeksforgeeks.org/types-of-virtual-private-network-vpn-and-its-protocols/](https://www.geeksforgeeks.org/types-of-virtual-private-network-vpn-and-its-protocols/)\]  
 \[[https://www.geeksforgeeks.org/ip-security-ipsec/](https://www.geeksforgeeks.org/ip-security-ipsec/)\]
 
@@ -129,7 +130,7 @@
   * Used mostly between gateways \(Cisco routers or ASA firewalls\) or at end-station to a gateway, the gateway acting as a proxy for the hosts behind it. 
   * [http://www.firewall.cx/networking-topics/protocols/870-ipsec-modes.html\#:~:text=Tunnel%20mode%20is%20most%20commonly,for%20the%20hosts%20behind%20it.&text=Another%20example%20of%20tunnel%20mode,e.g%20ASA5510%20or%20PIX%20Firewall\).](http://www.firewall.cx/networking-topics/protocols/870-ipsec-modes.html#:~:text=Tunnel%20mode%20is%20most%20commonly,for%20the%20hosts%20behind%20it.&text=Another%20example%20of%20tunnel%20mode,e.g%20ASA5510%20or%20PIX%20Firewall%29.) 
 
-**SSL / TLS VPN**
+### **SSL / TLS VPN**
 
 * SSL \(Secure Sockets Layer\)
 * TLS \(Transport Layer Security\)
@@ -137,12 +138,12 @@
 * Known as a WebVPN - remote access through a website over SSL/TLS.
 * Point-to-point encrypted communications.
 
-**VPN Tunneling**
+### **VPN Tunneling**
 
 * Full Tunnel - all requests are routed and encrypted through the VPN. More secure.
 * Split Tunnel - only some \(usually incoming requests\) are routed and encrypted over the VPN.
 
-**Unified Threat management \(UTM\) & Next Generation Firewall \(NGFW\)**
+### **Unified Threat management \(UTM\) & Next Generation Firewall \(NGFW\)**
 
 * An all-in-one firewall appliance / single interface / single vendor.
 * Network IDS/IPS.
@@ -152,7 +153,7 @@
   * Application aware.
 * Malware inspection.
 
-**Network Access Control \(NAC\)**
+### **Network Access Control \(NAC\)**
 
 * Uses a set of protocols to define and implement a policy that describes how to secure access to network nodes by devices upon initial access \(an IEEE 802.1X Standard\)
 * Components:
@@ -167,7 +168,7 @@
   * Is AV enabled?
 * Dissolvable vs Permanent
 
-**Security Information and Event Management \(SIEM\)**
+### **Security Information and Event Management \(SIEM\)**
 
 * SIEM tools collect, correlate, and display data feeds that support response activities.
 * Functions:
@@ -183,7 +184,7 @@
   * Time Synchronization
   * WORM - "Write-Once, Read-Many" protection.
 
-**Data Loss Prevention \(DLP\)**
+### **Data Loss Prevention \(DLP\)**
 
 * AKA Data Leakage Protection
 * Prevent sensitive information from physically or logically leaving corporate systems.
@@ -193,13 +194,13 @@
 * Hardware: USB Blocking.
 * Cloud data.
 
-**SSL / TLS Accelerators**
+### **SSL / TLS Accelerators**
 
 * SSL Offloading - the process of shifting the burden of encrypting and decrypting traffic sent via SSL from the web server to another device.
 * Accepts SSL/TLS connections from the end-point and sends the connection to the server unencrypted.
 * Associated with load balancers.
 
-**Gateways \(Mail & Media\)**
+### **Gateways \(Mail & Media\)**
 
 * Centralization and Routing
 * Encryption
@@ -208,7 +209,7 @@
   * Outbound
 * Proxy Servers \(media\)
 
-**Hardware Security Module \(HSM\)**
+### **Hardware Security Module \(HSM\)**
 
 * Hardware-based encryption that manages digital keys, accelerates cryptographic processes, and provides strong access authentication.
 * Trusted Platform Module \(TPM\) used to assist with cryptographic key generation.

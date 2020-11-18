@@ -1,6 +1,6 @@
 # Disaster Recovery & Business Continuity Plans
 
-**Disaster Recovery / Business Continuity Plans**
+### **Disaster Recovery / Business Continuity Plans**
 
 * Backup Concepts
 * Recovery Sites
@@ -13,21 +13,21 @@
 * Geographic Considerations
 * Continuity of Operations Planning
 
-**Planning Documents**
+### **Planning Documents**
 
 * Business Continuity Plan \(BCP\) - ensure the restoration of organizational functions in the shortest possible time, even if services resume at a reduced level of effectiveness or availability. Similar to Continuity of Operations Plan \(CoOP\).
 * Disaster Recover Plan \(DRP\) - ensure a full recovery of operational capacity following a disaster \(natural or manmade\).
 * Should be determined and written prior to an incident.
 * A restoration plan also should include contingency planning.
 
-**Recovery Sites**
+### **Recovery Sites**
 
 * Backup Sites - Locations for recovering systems and/or business operations.
   * Hot Site - Servers, networks, and telecom equipment in place and online to reestablish service. Most expensive.
   * Warm Site - Some equipment in place. May not be online. Requires admins to install and configure systems to resume ops.
   * Cold Site - Facility that isn't immediately ready to use. May need to bring your own equipment. Least expensive.
 
-**Order of Restoration**
+### **Order of Restoration**
 
 * Prioritized restore sequence.
 * Based on Business Impact Assessment \(BIA\)
@@ -35,7 +35,7 @@
 * Recovery Time Objective \(RTO\) - The maximum amount of time that a process or service is allowed to be down and the consequences still to be considered acceptable.
 * Recovery Point Objective \(RPO\) - The point of last known good data prior to an outage that is used to recover systems.
 
-**Types of Backups**
+### **Types of Backups**
 
 * Full - Complete backup of all data.
   * The most time and resource intensive form of backup.
@@ -45,7 +45,7 @@
   * Requires the full backup and most recent differential backup.
 * Copies and Snapshots - Like a full backup. Stored on the system.
 
-**Backup Strategy**
+### **Backup Strategy**
 
 * Grandfather-Father-Son Backup - Define three sets of backups.
   * The first set, the son, represents daily backups.
@@ -54,7 +54,7 @@
   * Over time, the son becomes the father and the father the grandfather.
   * The most common strat.
 
-**Geographic Considerations**
+### **Geographic Considerations**
 
 * Alternate Site Planning
 * Locations for Recovery
@@ -64,7 +64,7 @@
 * Legal Implications
 * Use of Cloud Services
 
-**Continuity of Operations Planning \(CoOP\)**
+### **Continuity of Operations Planning \(CoOP\)**
 
 * Policies and procedures - designed to ensure that an organization can recover from a potentially destructive incident and resume operations as quickly as possible following that event.
 * Ensures systems, data, and personnel availability.

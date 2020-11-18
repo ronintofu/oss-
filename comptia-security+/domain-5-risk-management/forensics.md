@@ -1,6 +1,6 @@
 # Forensics
 
-**Strategic Intelligence / Counterintelligence**
+### **Strategic Intelligence / Counterintelligence**
 
 * Gathering of info / data regarding an incident.
   * Intelligence gathering deals with collecting information to be used during prosecution as well as locating information that may be used by the opposition against you.
@@ -8,7 +8,7 @@
 * Pull from multiple data sources \(internal and external\).
 * Use of active logging.
 
-**Order of Volatility**
+### **Order of Volatility**
 
 * The order for collecting evidence.
 * Volatile data is easily or quickly lost.
@@ -18,7 +18,7 @@
 * Capture data that will be lost first.
 * Accomplished during incident identification.
 
-**Chain of Custody**
+### **Chain of Custody**
 
 * Provides a clear record of the path evidence takes from acquisition to disposal.
 * Any items taken must be secured to preserve its integrity.
@@ -30,12 +30,12 @@
   * Reliable
   * Believable
 
-**Legal Hold**
+### **Legal Hold**
 
 * Preservation on all forms of relevant information when litigation is reasonably anticipated.
 * A request to not destroy what might be relevant to a legal matter.
 
-**Data Acquisition**
+### **Data Acquisition**
 
 * Capture System Image
   * A system image is a snapshot of what exists.
@@ -82,7 +82,7 @@
   * Who you interviewed, including their names, contact info \(email, phone, address\), and what they saw \(when, where, and how\)
   * Should be conducted with legal and/or HR.
 
-**Documentation / Track Hours**
+### **Documentation / Track Hours**
 
 * Document everything.
 * Written narrative.
