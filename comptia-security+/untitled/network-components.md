@@ -24,7 +24,7 @@
 
 * Allows multiple devices to access the internet through a single public address. 
   * Needs to translate private IP address to a public IP address to achieve this.
-* NAT is a process in which one or more local IP address is translated into one or more Global IP address and vice versa in order to provide internet access tot he local hosts. 
+* NAT is a process in which one or more local IP address is translated into one or more Global IP address and vice versa in order to provide internet access to the local hosts. 
 * From a security standpoint, NAT hides internal IP addresses from the public network. 
 
 ### **Spanning Tree Protocol \(STP\)** - [{source}](https://www.dummies.com/programming/networking/cisco/spanning-tree-protocol-stp-introduction/)
