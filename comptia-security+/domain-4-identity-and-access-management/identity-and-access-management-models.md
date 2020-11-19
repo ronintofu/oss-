@@ -53,7 +53,12 @@
   * Rule-based access control includes controls such as the time of day, the day of the week, specific terminal access, and GPS coordinates of the requester.
   * Implemented with Access Control Lists \(ACLs\)
 
-![](../../.gitbook/assets/image%20%2814%29.png)
+| Name | Restrictions | Description |
+| :--- | :--- | :--- |
+| Mandatory Access Control \(MAC\) | End user cannot set controls. | Most restrictive model. |
+| Discretionary Access Control \(DAC\) | Subject has total control over objects. | Least restrictive model. |
+| Role Based Access Control \(RBAC\) | Assigns permissions to particular roles in the organization and then users are assigned to roles. | Considered a more 'real-world' approach. |
+| Rule Based Access Control \(RBAC\) | Dynamically assigns roles to subjects based on a set of rules defined by a custodian. | Used for managing user access to one or more systems. |
 
 ### **Best Practices for Access Control**
 
@@ -77,7 +82,11 @@
     * Processes should run at minimum security level needed to correctly function.
     * Temptation to assign higher levels of privilege is great.
 
-![](../../.gitbook/assets/image%20%2816%29.png)
+| Challenge | Explanation |
+| :--- | :--- |
+| Legacy Applications | Many older software applications were designed to only run with a high level of privilege. Many of these applications were internally developed and are no longer maintained or are third-party applications that are no longer supported. Redeveloping the application may be seen as too costly; an alternative is to run the application in a virtualized environment. |
+| Common Administrative Tasks | In some organizations, basic system administration tasks are performed by the user, such as connecting printers or defragmenting a disk; without a higher level of privilege, users must contact the help desk so that a technician can help with the tasks. |
+| Software Installation/Upgrade | A software update that is not centrally deployed can require a higher privilege level, which can mean support from the local help desk; this usually results in decreased productivity and increased support costs. |
 
 * Implicit deny.
   * If a condition is not explicitly met, access request is rejected.
