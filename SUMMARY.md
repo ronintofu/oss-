@@ -2,46 +2,6 @@
 
 * [About](README.md)
 
-## Intro to Networking
-
-* [Module 2](intro-to-networking/module-2/README.md)
-  * [IPv6, WLAN 802.11](intro-to-networking/module-2/ipv6-wlan-802.11.md)
-  * [ARP, DHCP, IP Addressing](intro-to-networking/module-2/arp-dhcp-ip-addressing.md)
-  * [Intro to Networking](intro-to-networking/module-2/intro-to-networking.md)
-  * [Frames & MAC](intro-to-networking/module-2/frames-and-mac.md)
-  * [Intro to IP Routing](intro-to-networking/module-2/intro-to-ip-routing.md)
-  * [Routing Packets and Datagrams](intro-to-networking/module-2/routing-packets-and-datagrams.md)
-  * [Real World IP Routing](intro-to-networking/module-2/real-world-ip-routing-1.md)
-  * [How Routers Route](intro-to-networking/module-2/how-routers-route.md)
-* [Module 3](intro-to-networking/module-3/README.md)
-  * [TCP/IP](intro-to-networking/module-3/tcp-ip.md)
-  * [TCP, UDP, & Ports - Ports](intro-to-networking/module-3/tcp-udp-and-ports-ports.md)
-  * [TCP/UDP/Real World TCP/Port Forwarding](intro-to-networking/module-3/untitled.md)
-  * [Core Protocols](intro-to-networking/module-3/core-protocols.md)
-  * [Networking Models](intro-to-networking/module-3/networking-models.md)
-* [Module 4](intro-to-networking/module-4/README.md)
-  * [Virtualization](intro-to-networking/module-4/virtualization.md)
-  * [Operating Systems](intro-to-networking/module-4/operating-systems.md)
-  * [Network Security Continued](intro-to-networking/module-4/network-security-continued.md)
-  * [DNZ / VLAN / Firewalls / Attacks](intro-to-networking/module-4/dnz-vlan-firewalls-attacks.md)
-  * [Additional Network Attacks / Network Hardening Techniques](intro-to-networking/module-4/additional-network-attacks-network-hardening-techniques.md)
-  * [Distribution/Core Layer/VLAN](intro-to-networking/module-4/distribution-core-layer-vlan.md)
-  * [Inter-VLAN Routing / Etherchannel / DHCP Snooping / Troubleshooting Serial Links](intro-to-networking/module-4/inter-vlan-routing-etherchannel-dhcp-snooping-troubleshooting-serial-links.md)
-
-## NexGenT Cyber Security Associate
-
-* [Module 1 - Identify & Analyze Threats](nexgent-cyber-security-associate/module-1-identify-and-analyze-threats/README.md)
-  * [Cyber Ecosystem Overview](nexgent-cyber-security-associate/module-1-identify-and-analyze-threats/cyber-ecosystem-overview.md)
-  * [Cyber Mindset](nexgent-cyber-security-associate/module-1-identify-and-analyze-threats/cyber-mindset.md)
-  * [Case Studies](nexgent-cyber-security-associate/module-1-identify-and-analyze-threats/case-studies.md)
-* [Module 2 - Cryptography](nexgent-cyber-security-associate/module-2-cryptography.md)
-* [Module 3 - Full Stack Network Security](nexgent-cyber-security-associate/module-3-full-stack-network-security.md)
-* [Module 4 - Secure Protocols](nexgent-cyber-security-associate/module-4-secure-protocols.md)
-* [Module 5 - Symptoms of Compromise](nexgent-cyber-security-associate/module-5-symptoms-of-compromise.md)
-* [Module 6 - Tools](nexgent-cyber-security-associate/module-6-tools.md)
-* [Module 7 - Testing the Infrastructure](nexgent-cyber-security-associate/module-7-testing-the-infrastructure.md)
-* [Module 8 - Incident Response](nexgent-cyber-security-associate/module-8-incident-response.md)
-
 ## CompTIA Security+
 
 * [Acronyms](comptia-security+/acronyms.md)
