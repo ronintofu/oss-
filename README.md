@@ -8,7 +8,7 @@ _I'm adding this simply because I've been asked a few times now: no, I am not ch
 
 ### Note:
 
-These are personal notes meant for studying, so keep that in mind as you'll see spelling and grammatical errors, as well as a general shift in note-taking style over time, as these were taken over a 3 month period. 
+These are personal notes meant originally for personal studying, so keep that in mind as you'll see spelling and grammatical errors, as well as a general shift in note-taking style over time, as these were taken over a 3 month period. 
 
 This is an ongoing project and will be updated regularly. 
 
