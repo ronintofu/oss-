@@ -1,6 +1,6 @@
 # About
 
-_These are the collected notes of James Somers \[xxcker\], NexGenT NCSA/P & CompTIA Security+ \(SYO-501\) exam student.   
+_These are the collected notes of of xxcker, NexGenT NCSA/P & CompTIA Security+ \(SYO-501\) exam student.   
   
 If you want to suggest something be added or changed, please do so_ [{](https://forms.gle/MjnsdXMfvd8hKFKU9)[here}](https://forms.gle/MjnsdXMfvd8hKFKU9).   
   
