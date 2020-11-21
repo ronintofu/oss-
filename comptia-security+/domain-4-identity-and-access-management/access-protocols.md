@@ -15,9 +15,9 @@
 * Hierarchical structure.
 * An open protocol.
 * Weakness of LDAP:
-* Can be subject to LDAP injection attacks:
-  * Similar to SQL injection attacks.
-  * Occurs when user input is not properly filtered.
+  * Can be subject to LDAP injection attacks:
+    * Similar to SQL injection attacks.
+    * Occurs when user input is not properly filtered.
 
 ### **LDAP Data Interchange Format \(LDIF\)**
 
