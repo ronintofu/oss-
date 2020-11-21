@@ -75,6 +75,14 @@
   * Uses an IV with the first block.
   * Thereafter, each block of plain text is obfuscated with the cipher text from the previous block before it is encrypted.
   * Introduces more diffusion & reduces effects of plain-text attacks.
+* _Electronic Code Book \(ECB\)_ 
+  * The easiest method.
+  * Direct encryption of each block of input plaintext.
+  * Output is in form of blocks of encrypted ciphertext.
+* _Cipher Feedback Mode \(CFB\)_
+  * Uses an initial chaining vector \(ICV\) in its processing.
+  * Performs cipher feedback encryption. 
+  * Operates on segments instead of blocks.
 
 ### **Asymmetric Encryption**
 
