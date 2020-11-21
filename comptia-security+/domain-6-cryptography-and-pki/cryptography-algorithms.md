@@ -83,6 +83,10 @@
   * Uses an initial chaining vector \(ICV\) in its processing.
   * Performs cipher feedback encryption. 
   * Operates on segments instead of blocks.
+* _Galois/Counter Mode_
+  * Used with symmetric-key key block ciphers.
+  * An authentication encryption designed to give both integrity and confidentiality. 
+  * Used with 128 bit block ciphers.
 
 ### **Asymmetric Encryption**
 
