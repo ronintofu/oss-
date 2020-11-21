@@ -23,7 +23,7 @@
 
 ### **Data Exfiltration** 
 
-* the unauthorized transfer of data from a computer or device. 
+* The unauthorized transfer of data from a computer or device. 
 
 ### **Cross-Site Request Forgery \(XSRF/CSRF\) - AKA** [**{Session Riding}**](https://en.wikipedia.org/wiki/Cross-site_request_forgery)\*\*\*\*
 
