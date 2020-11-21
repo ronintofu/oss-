@@ -60,7 +60,7 @@
 ### **Cryptographic Attacks**
 
 * Birthday: An attack on cryptographic hash that looks for hash collisions - exploiting the 1-to-1 nature of hashing functions.
-* Known Plain Text/Cipher Text: An attacker attempts to derive a cryptographic key by using pairs of known plain text along with the corresponding cipher text.
+* Known Plain Text/Cipher Text \(KPA\): An attacker attempts to derive a cryptographic key by using pairs of known plain text along with the corresponding cipher text.
 * Frequency Analysis: Looking at the blocks of an encrypted message to determine if any common patterns exist.
 * Password Attacks:
   * Dictionary: Systematically entering each word in a dictionary as a password.
