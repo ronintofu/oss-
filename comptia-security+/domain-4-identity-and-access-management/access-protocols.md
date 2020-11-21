@@ -116,7 +116,13 @@
   * Encrypts the entire packet, not just authentication.
   * Controls the authorization of router commands.
 
-![](../../.gitbook/assets/image%20%288%29.png)
+| Feature | RADIUS | TACACS+ |
+| :--- | :--- | :--- |
+| Transport Protocol | UDP | TCP |
+| Authentication and Authorization | Combined | Separated |
+| Communication | Unencrypted | Encrypted |
+| Interacts with Kerberos | No | Yes |
+| Can authorize network devices | No | Yes |
 
 ### **Password Authentication Protocol \(PAP\)**
 
