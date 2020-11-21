@@ -36,5 +36,5 @@
 
 * See definition above. A penetration test is essentially an attempt to exploit these vulnerabilities.
 * Vulnerability Scanning - Allows tester to identify specific vulnerabilities in a network, system, or application. Most penetration testers will start with this procedure so that they can identify likely targets to attack.
-* Risk Assessment - Allows an organization to understand the cybersecurity risk to organizational operations \(including mission, functions, image, or reputation\), organizational assets, systems, or individuals.
+* Risk Assessment - Allows an organization to understand the cyber-security risk to organizational operations \(including mission, functions, image, or reputation\), organizational assets, systems, or individuals.
 
