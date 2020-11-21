@@ -110,12 +110,10 @@
 
 * What you know.
   * User logging into a system.
-
     * Asked to ID themself:
       * Enters username.
     * Asked to authenticate:
       * Enters password.
-
   * Passwords are the most common type of authentication today.
   * Passwords only provide weak protection.
 * What you have.
