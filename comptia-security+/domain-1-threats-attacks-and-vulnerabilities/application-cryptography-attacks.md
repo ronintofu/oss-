@@ -54,7 +54,7 @@
 ### **Driver Manipulation**
 
 * Driver: A program that controls a device such as printers, media, keyboards, etc. They are usually signed.
-* Shimming: Creating a library, or modifying an existing one, to bypass a driver and perform a function other than the one for which the API was created.
+* Shimming: Creating a library, or modifying an existing one, to bypass a driver and perform a function other than the one for which the API was created. Makes external changes visible in the code's behavior.
 * Refactoring: Set of techniques used to identify the flow and then modify the internal structure of code without changing the code's visible behavior.
 
 ### **Cryptographic Attacks**
