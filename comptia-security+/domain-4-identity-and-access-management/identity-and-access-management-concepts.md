@@ -25,7 +25,11 @@
   * Record of events.
   * Logs
 
-![](../../.gitbook/assets/image%20%2815%29.png)
+| Action | Description | Scenario Example | Computer Process |
+| :--- | :--- | :--- | :--- |
+| Identification | Review of credentials. | Delivery person shows employee badge. | User enters username. |
+| Authentication | Validate credentials as genuine. | Mia reads badge to determine it is real. | User provides password. |
+| Authorization | Permission granted for admittance. | Mia opens door to allow delivery person in. | User allowed to access only specific data. |
 
 ### **Access Control Terminology**
 
