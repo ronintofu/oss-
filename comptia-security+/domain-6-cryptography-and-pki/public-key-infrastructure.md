@@ -5,6 +5,8 @@
 * Encrypt a document with the recipient's public key. Only their private key needs to be kept secret and only it can decrypt the message.
 * The sender's private key is used to sign the message.
 
+![](../../.gitbook/assets/image%20%2826%29.png)
+
 ### **PKI Components** Public Key Infrastructure
 
 * Solves the issue with key management.
@@ -23,7 +25,7 @@
 
 ### **Digital Certificate Components**
 
-![](https://www.evernote.com/shard/s342/res/a923ee24-ac3a-dc0c-75f9-1f5248527da6)
+![](../../.gitbook/assets/image%20%2824%29.png)
 
 ### **X.509 Certificate Types**
 
@@ -71,7 +73,7 @@
 * P12
 * P7B
 
-![](https://www.evernote.com/shard/s342/res/47a4a3fd-f5e3-a2a5-2a3d-48db219464e3)
+![](../../.gitbook/assets/image%20%2825%29.png)
 
 ### **PKI Components - Certificate Authority \(CA\)**
 
@@ -150,6 +152,4 @@
 ### **Subject Alternative Name \(SAN\)** - [{source}](https://en.wikipedia.org/wiki/Subject_Alternative_Name)
 
 * A field in the certificate definition that allows you to stipulate additional information, such as an IP address or host name, associated with the certificate. 
-
-
 
