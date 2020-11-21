@@ -32,6 +32,8 @@
 * Encrypt communications using SSL/TLS to secure LDAP transmissions.
 * Certificates can validate authentication requests.
 * LDAPv3 bind requests should use Simple Authentication and Security Layer \(SASL\) 
+  * A framework for authentication and data security in internet protocols.
+  * It decouples authentication from application protocols allowing all SASL authentication mechanisms to work with one another.
   * [{SASL Source}](https://en.wikipedia.org/wiki/Simple_Authentication_and_Security_Layer)
 
 ### **Directory Information Tree**
