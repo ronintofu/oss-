@@ -43,7 +43,11 @@
   * Action taken by the subject over an object.
   * Ex: Deleting a file.
 
-![](../../.gitbook/assets/image%20%2811%29.png)
+| Role | Description | Duties | Example |
+| :--- | :--- | :--- | :--- |
+| Owner | Person responsible for the information. | Determines the level of security needed for the data and delegates security duties as required. | Determines that the file secret.txt can be read only by department managers. |
+| Custodian | Individual to whom day-to-day actions have been assigned by the owner. | Periodically reviews security settings and maintains records of access by end users. | Sets and reviews security settings on secret.txt. |
+| End User | User who accesses information in the course of routine job responsibilities. | Follows organization's security guidelines and does not attempt to circumvent security. | Opens secret.txt. |
 
 ![](../../.gitbook/assets/image.png)
 
