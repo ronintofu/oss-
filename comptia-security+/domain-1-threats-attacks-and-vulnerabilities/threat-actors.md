@@ -27,10 +27,10 @@
 * Open Source - Any info that is readily available to anyone, such as newspapers or news sites.
 * Intelligence - The collection of information of military, political, organizational, or financial value.
 * Websites and tools that allow you to gather information on current threats or specific security issues:
-  * ThreatCrowd
-  * OpenPhish
-  * OSINT Framework
-  * Shodan
+  * [{ThreatCrowd}](https://www.threatcrowd.org/)
+  * [{OpenPhish}](https://openphish.com/)
+  * [{OSINT Framework}](https://osintframework.com/)
+  * [{Shodan}](https://www.shodan.io/)
 
 ### **Attributes of Threat Actors**
 

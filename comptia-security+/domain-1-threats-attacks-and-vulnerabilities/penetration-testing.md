@@ -22,7 +22,7 @@
 * Black Box - The tester has no knowledge of the system and is functioning in the same manner as an outside attacker.
 * White Box- The tester has significant knowledge of the system. This simulates an attack from an insider - a rogue employee.
 * Gray Box - This is a middle ground between the first two types of testing. In gray box testing, the tester has some limited knowledge of the target system.
-* Nonintrusive Tests - Involve passively testing security controls, performing vulnerability scans and probing for weaknesses but not exploiting them.
+* Non-intrusive Tests - Involve passively testing security controls, performing vulnerability scans and probing for weaknesses but not exploiting them.
 * Intrusive Tests- Involve actually trying to exploit vulnerabilities to break into the network.
 
 ### **Penetration Testing Activities**
