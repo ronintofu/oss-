@@ -47,7 +47,6 @@
 * Once authenticated with the KDC, user is given a Ticket Granting Ticket \(TGT\)
   * Tickets are encrypted and have a limited life span.
   * Ticket lists user's privileges.
-* Each time the user wishes to access some resource on the network, the user's computer presents the KDC with the TGT; the TGT then sends that user's computer to a service ticket, granting the user access to that service.
 * Works like using a driver's license to cash a check.
 
 ### **Kerberos Ticket**
