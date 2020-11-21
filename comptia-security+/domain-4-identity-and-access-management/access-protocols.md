@@ -150,7 +150,7 @@
   * Protects the authentication traffic.
   * Uses a certificate on the authentication server.
 
-### **NT LAN Manager \(NTLM\)**
+### **NT LAN Manager \(NTLM / NT LANMan\)**
 
 * Legacy authentication from Microsoft.
 * Replaced by Kerberos.
