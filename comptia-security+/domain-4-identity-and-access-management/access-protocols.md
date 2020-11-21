@@ -190,7 +190,7 @@
 * A two-phase commit ensures that an entire transaction is executed to ensure data integrity. 
 * If a portion of a transaction cannot complete, the entire transaction is not performed. 
 
-**Secure European System for Applications in a Multi-vendor Environment \(SESAME\)** [{source}](https://www.cosic.esat.kuleuven.be/sesame/html/sesame_what.html)
+### **Secure European System for Applications in a Multi-vendor Environment \(SESAME\)** [{source}](https://www.cosic.esat.kuleuven.be/sesame/html/sesame_what.html)
 
 * Sophisticated single-sign-on with added distributed access control features and cryptographic protection of interchanged data.
 * To access the distributed system, a user first authenticates ta an Authentication Server to get a cryptographically protected token used to prove his or her ID.
