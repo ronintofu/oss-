@@ -14,7 +14,7 @@ _The actual Security+ exam was an entirely different beast than I expected and t
 
 These are personal notes meant originally for personal studying, so keep that in mind as you'll see spelling and grammatical errors, as well as a general shift in note-taking style over time, as these were taken over a 3 month period. 
 
-This is an ongoing project and will be updated regularly and I'd like to keep working on it and expand it to cover the 601 material when I have the money to purchase the book\(s\) to do so. 
+This is an ongoing project and will be updated regularly. I'd like to keep working on it and expand it to cover the 601 material when I have the money to purchase the book\(s\) to do so. 
 
 ### If you'd like to learn to program, I recommend [{Codecademy}](http://ssqt.co/mQgKb6g)! 
 
