@@ -18,7 +18,7 @@ This is an ongoing project and will be updated regularly. I'd like to keep worki
 
 ### Funding Goal
 
-I am looking to keep this study guide going, but to also expand it to include 601 exam topics and to become a comprehensive resource for those desiring to pass the CompTIA Security+ exam. With that being said, I would like to purchase the exam's official guidebook for instructors and have a funding goal of \[$99.88\] to do so. Donations will be accepted above at the [{Buy Me A Coffee}](https://www.buymeacoffee.com/xxcker) link for that.
+I am looking to keep this study guide going, but to also expand it to include 601 exam topics and to become a comprehensive resource for those desiring to pass the CompTIA Security+ exam. With that being said, I would like to purchase the exam's official guidebook for instructors and have a funding goal of $99.88 to do so. Donations will be accepted above at the [{Buy Me A Coffee}](https://www.buymeacoffee.com/xxcker) link for that.
 
 > 0% \[\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\] $98.99
 
