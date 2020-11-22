@@ -4,7 +4,7 @@ These are the collected notes of of xxcker \(James Somers\), NexGenT NCSA & Comp
   
 If you want to suggest something be added or changed, please do so [{](https://forms.gle/MjnsdXMfvd8hKFKU9)[here}](https://forms.gle/MjnsdXMfvd8hKFKU9). 
 
-### From the author:
+### From the author of this gitbook:
 
 _I'm adding this simply because I've been asked a few times now: no, I am not charging anyone for anything related to these notes, including the_ [{quizlets}](%20https://quizlet.com/_919uvm?x=1jqt&i=2z4u5u) _that I've made. You can consider them open-source. Because I have been asked, you are welcome to_ [{buy me a coffee}](https://www.buymeacoffee.com/xxcker), _but I'll never charge for any material._ 
 
