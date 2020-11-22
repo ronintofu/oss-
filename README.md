@@ -16,5 +16,11 @@ These are personal notes meant originally for personal studying, so keep that in
 
 This is an ongoing project and will be updated regularly. I'd like to keep working on it and expand it to cover the 601 material when I have the money to purchase the book\(s\) to do so. 
 
+### Funding Goal
+
+I am looking to keep this study guide going, but to also expand it to include 601 exam topics and to become a comprehensive resource and resource guide for those desiring to pass the CompTIA Security+ exam. With that being said, I would like to purchase the exam's official guidebook for instructors and have a funding goal of \[$99.88\] to do so. Donations will be accepted above at the [{Buy Me A Coffee}](https://www.buymeacoffee.com/xxcker) link for that.
+
+> 0% \[\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\] $98.99
+
 ### If you'd like to learn to program, I recommend [{Codecademy}](http://ssqt.co/mQgKb6g)! 
 
