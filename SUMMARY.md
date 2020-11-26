@@ -1,6 +1,7 @@
 # Table of contents
 
 * [About](README.md)
+* [Donors](donors.md)
 
 ## CompTIA Security+
 
