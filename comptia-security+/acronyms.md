@@ -62,6 +62,7 @@ I've made a flashcard set on quizlet to go with these: [https://quizlet.com/\_91
 * CTR - Counter
 * CYOD - Choose Your Own Device
 * DAC - Discretionary Access Control
+* DACL - Discretionary Access Control List
 * DBA - Database Administrator
 * DCL - Data Control Language
 * DDoS - Distributed Denial of Service
