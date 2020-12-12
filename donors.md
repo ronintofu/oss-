@@ -9,7 +9,7 @@ These are the people that have donated to keep this project going. A very specia
 > _Joe Gibson  
 > Mas Wilson  
 > Julio S.  
-> Alex G_
+> Alex G._
 
 \_\_
 
