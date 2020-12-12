@@ -1,6 +1,6 @@
 # About
 
-These are the collected notes of James Somers, NexGenT NCSA & CompTIA Security+ \(SYO-501\) certified.  
+These are the collected notes of James Somers \(ronintofu\), NexGenT NCSA & CompTIA Security+ \(SYO-501\) certified.  
   
 If you want to suggest something be added or changed, please do so [{](https://forms.gle/MjnsdXMfvd8hKFKU9)[here}](https://forms.gle/MjnsdXMfvd8hKFKU9). 
 
