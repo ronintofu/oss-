@@ -11,7 +11,8 @@ These are the people that have donated to keep this project going. A very specia
 > Julio S.  
 > Alex G.  
 > Matthew B.  
-> Kristy B._
+> Kristy B.   
+> Will G._
 
 \_\_
 
