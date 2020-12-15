@@ -10,7 +10,8 @@ These are the people that have donated to keep this project going. A very specia
 > Mas W.  
 > Julio S.  
 > Alex G.  
-> Matthew B._
+> Matthew B.  
+> Kristy B._
 
 \_\_
 
